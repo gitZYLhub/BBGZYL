@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.4">
+	<Properties>
+		<Name>ZYL的轻量化平衡模组</Name>
+		<Description>ZYL's Lightweight Balance Mod. Lightweight Civilization VI balance changes for friendly multiplayer games.</Description>
+		<Teaser>ZYL's Lightweight Balance Mod</Teaser>
+		<Authors>ZYL and friends</Authors>
+		<Version>0.4</Version>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+
+	<ActionCriteria>
+		<Criteria id="XP1" any="1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+			<RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="XP2" any="1">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+	</ActionCriteria>
+
+	<FrontEndActions>
+		<UpdateText id="ZYL_LBM_FrontEndText">
+			<Properties>
+				<LoadOrder>50000</LoadOrder>
+			</Properties>
+			<File>lang/english.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<InGameActions>
+		<UpdateText id="ZYL_LBM_InGameText">
+			<Properties>
+				<LoadOrder>50000</LoadOrder>
+			</Properties>
+			<File>lang/english.xml</File>
+		</UpdateText>
+
+		<UpdateDatabase id="ZYL_LBM_Core">
+			<Properties>
+				<LoadOrder>50000</LoadOrder>
+			</Properties>
+			<File>sql/Core.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_BaseBuffs">
+			<Properties>
+				<LoadOrder>50010</LoadOrder>
+			</Properties>
+			<File>sql/Base/Buffs.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_XP1Buffs">
+			<Properties>
+				<LoadOrder>50020</LoadOrder>
+			</Properties>
+			<Criteria>XP1</Criteria>
+			<File>sql/XP1/Buffs_XP1.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_XP2Buffs">
+			<Properties>
+				<LoadOrder>50030</LoadOrder>
+			</Properties>
+			<Criteria>XP2</Criteria>
+			<File>sql/XP2/Buffs_XP2.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_XP2SecretSocieties">
+			<Properties>
+				<LoadOrder>50040</LoadOrder>
+			</Properties>
+			<Criteria>XP2</Criteria>
+			<File>sql/XP2/SecretSocieties.sql</File>
+		</UpdateDatabase>
+
+		<UpdateIcons id="ZYL_LBM_Icons">
+			<File>data/icons.xml</File>
+		</UpdateIcons>
+	</InGameActions>
+
+	<Files>
+		<File>data/icons.xml</File>
+		<File>lang/english.xml</File>
+		<File>sql/Core.sql</File>
+		<File>sql/Base/Buffs.sql</File>
+		<File>sql/XP1/Buffs_XP1.sql</File>
+		<File>sql/XP2/Buffs_XP2.sql</File>
+		<File>sql/XP2/SecretSocieties.sql</File>
+	</Files>
+</Mod>

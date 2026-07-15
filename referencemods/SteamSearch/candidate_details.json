@@ -1,0 +1,200 @@
+﻿{
+    "response":  {
+                     "result":  1,
+                     "resultcount":  5,
+                     "publishedfiledetails":  [
+                                                  {
+                                                      "publishedfileid":  "1300008347",
+                                                      "result":  1,
+                                                      "creator":  "76561198090758136",
+                                                      "creator_app_id":  404350,
+                                                      "consumer_app_id":  289070,
+                                                      "filename":  "",
+                                                      "file_size":  "0",
+                                                      "file_url":  "",
+                                                      "hcontent_file":  "2898591119629246544",
+                                                      "preview_url":  "https://images.steamusercontent.com/ugc/936057017492792277/B1E36BA8112EEE9116A3880838F068329F17C795/",
+                                                      "hcontent_preview":  "936057017492792277",
+                                                      "title":  "Faith Pantheons",
+                                                      "description":  "Adds new faith-based pantheons. 7 for the base game alone and an 8th that requires Resourceful. You can use the mod whether you have Resourceful or not. \r\n\r\nAscent of the Faithful\t\t+1 faith per mountain tile adjacent to Holy Site\r\nDivine Raiment\t\t\t+1 faith from plantations of cotton and silk and pearl boats\r\nCeremonies\t\t\t        +1 faith from plantations of incense, wine, and dye\r\nSacred Groves\t\t\t+1 faith from unimproved ebony, sandalwood, and oak\r\nGod of the Nomads\t\t        +1 faith for deer and fox camps and berry plantations\r\nLady of the Lake\t\t        +1 faith for holy sites adjacent to a lake \r\nBlessed Harvest\t\t\t+1 faith for wheat and rice farms\r\nHerds of the Pious\t\t        +2 faith for unimproved herd animal tiles (horses, oxen, sheep, cows)\r\n\r\nThe AIs do select these as their Pantheon. \r\n\r\nWe also recommend using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1433386179\u0026searchtext=]Pantheon Balance Changes[/url]  by Venatorae to balance the Earth Goddess pantheon. That mod also removes the Goddess of the Harvest pantheon for better balance with Rise and Fall. \r\n\r\nComments are welcome.\r\n\r\n\r\n",
+                                                      "time_created":  1518484528,
+                                                      "time_updated":  1550330227,
+                                                      "visibility":  0,
+                                                      "banned":  0,
+                                                      "ban_reason":  "",
+                                                      "subscriptions":  2942,
+                                                      "favorited":  225,
+                                                      "lifetime_subscriptions":  6643,
+                                                      "lifetime_favorited":  315,
+                                                      "views":  20815,
+                                                      "tags":  [
+                                                                   {
+                                                                       "tag":  "Mod"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Gameplay"
+                                                                   }
+                                                               ]
+                                                  },
+                                                  {
+                                                      "publishedfileid":  "1899387161",
+                                                      "result":  1,
+                                                      "creator":  "76561198056747696",
+                                                      "creator_app_id":  404350,
+                                                      "consumer_app_id":  289070,
+                                                      "filename":  "",
+                                                      "file_size":  "0",
+                                                      "file_url":  "",
+                                                      "hcontent_file":  "1654049711015767536",
+                                                      "preview_url":  "https://images.steamusercontent.com/ugc/1851557775279665996/BA1BCD53DB4FE46BA62D1E138D6C78DF804E0403/",
+                                                      "hcontent_preview":  "1851557775279665996",
+                                                      "title":  "SPM Pantheon Beliefs",
+                                                      "description":  "Add 16 new pantheons because why not. Balance is not guaranteed.\r\n\r\nSpirit of Wealth - +1 Gold from pastures, camps, plantations and quarries.\r\nSpirit of Nature - +1 Faith for forest and jungle tiles.\r\nSpirit of Commerce - +1 Trade route and a free Trader.\r\nSpirit of Shelter - +2 Housing on cities without fresh water.\r\nSpirit of Craftsmanship - +25% Production towards building granaries and watermills. +2 Food and +2 Production for granaries and watermills.\r\nSpirit of Festival - +1 Amenity from monuments.\r\nSpirit of Animality - +1 Faith for horses, deer, furs, ivory and turtles.\r\nSpirit of the Deity - +1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Housing and +1 Amenity for the palace.\r\nSpirit of Scriptures - +1 Great work of religion for shrines.\r\nSpirit of Speech - +1 Envoy and +1 influence point per turn.\r\nSpirit of the Sun - +1 Food for bananas, rice, wheat, citrus and wine.\r\nSpirit of the Sea - +1 Faith and +1 Gold for fishing boats.\r\nSpirit of Domestication - +1 Production for districts adjacent to  a pasture or a camp.\r\nSpirit of Curiosity - +1 Faith for tiles adjacent to an oasis, a reef or a geothermal fissure.Spirit of Preservation - +1 Culture for lake, oasis and natural wonder tiles.",
+                                                      "time_created":  1572115365,
+                                                      "time_updated":  1657378915,
+                                                      "visibility":  0,
+                                                      "banned":  0,
+                                                      "ban_reason":  "",
+                                                      "subscriptions":  3535,
+                                                      "favorited":  306,
+                                                      "lifetime_subscriptions":  6598,
+                                                      "lifetime_favorited":  379,
+                                                      "views":  13361,
+                                                      "tags":  [
+                                                                   {
+                                                                       "tag":  "Mod"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Gathering Storm"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Religions"
+                                                                   }
+                                                               ]
+                                                  },
+                                                  {
+                                                      "publishedfileid":  "2493618364",
+                                                      "result":  1,
+                                                      "creator":  "76561198073082705",
+                                                      "creator_app_id":  404350,
+                                                      "consumer_app_id":  289070,
+                                                      "filename":  "",
+                                                      "file_size":  "0",
+                                                      "file_url":  "",
+                                                      "hcontent_file":  "805685417323135113",
+                                                      "preview_url":  "https://images.steamusercontent.com/ugc/1787345199301664210/18A59AC25AA2742D0CFA785FFBD8A138480F38B5/",
+                                                      "hcontent_preview":  "1787345199301664210",
+                                                      "title":  "Vinrock\u0027s Pantheons",
+                                                      "description":  "Adds a handful of new pantheons for some more choice during the early game!\r\n\r\nGoddess of Protection: +100% Prod to Ancient Walls, +2 Faith from Ancient Walls. \r\nHoly Warriors: Spawns 2 Warriors near your capital \r\nStairway to Divinity: +1 Faith to Holy Sites from adjacent hills\r\nAbyssal Call: +1 Faith to Holy Sites from adjacent Coast.\r\n\r\n_____________\r\n\r\nIf you enjoyed this mod, please like + favorite it! It really helps motivate me to make more content!\r\n\r\n_____________\r\n\r\nYou can find a German translated version in this mod pack: \r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2640245490",
+                                                      "time_created":  1621617506,
+                                                      "time_updated":  1625717249,
+                                                      "visibility":  0,
+                                                      "banned":  0,
+                                                      "ban_reason":  "",
+                                                      "subscriptions":  1207,
+                                                      "favorited":  127,
+                                                      "lifetime_subscriptions":  2350,
+                                                      "lifetime_favorited":  164,
+                                                      "views":  7746,
+                                                      "tags":  [
+                                                                   {
+                                                                       "tag":  "Mod"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Base Game"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Rise and Fall"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Gathering Storm"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Religions"
+                                                                   }
+                                                               ]
+                                                  },
+                                                  {
+                                                      "publishedfileid":  "2990102039",
+                                                      "result":  1,
+                                                      "creator":  "76561199018631575",
+                                                      "creator_app_id":  404350,
+                                                      "consumer_app_id":  289070,
+                                                      "filename":  "",
+                                                      "file_size":  "0",
+                                                      "file_url":  "",
+                                                      "hcontent_file":  "163993569218758966",
+                                                      "preview_url":  "https://images.steamusercontent.com/ugc/2027230328980385472/2D7A5878F0AE937EC4D5739A577E6163B7139DC3/",
+                                                      "hcontent_preview":  "2027230328980385472",
+                                                      "title":  "Create Your Pantheon",
+                                                      "description":  "[i][b]Choose your domain and power to create a unique pantheon for your civilization! Shennong or Wenquxing, Venus or Dionysus?\r\n——Dark Age Mod Development Team, Create Your Pantheon Project Team[/b][/i]\r\n[h1]Mod Introduction[/h1]\r\nIn this mod, the traditional mechanism of choosing one pantheon out of many is abandoned in favor of selecting a combination of domain and power to determine the abilities of your pantheon. This mod provides over 100 pantheon combinations, catering to a wide range of starting environments and gameplay requirements. Players can flexibly and strategically choose their own pantheon or create unique and historically flavored combinations for fun.\r\n[img]https://steamuserimages-a.akamaihd.net/ugc/2027230478229594608/FCFF57D1323507F2E93B3ED8366083EF4B0706F2/?imw=1024\u0026imh=553\u0026ima=fit\u0026impolicy=Letterbox\u0026imcolor=%23000000\u0026letterbox=true[/img]\r\nThe Create Your Pantheon Mod currently does not support multiplayer games and is not compatible with other pantheon mods or mods that modify the pantheon UI.\r\nThis mod is the first planned generative ability mod in the workshop and required a tremendous amount of work. We hope it will be loved and appreciated by all of you! Show your support for this mod by giving it a thumbs-up. For every 100 likes, we will add an additional domain/power combination. And for every subsequent 200 likes, another domain/power combination will be added. If we reach 500 likes, we will work on making it compatible with online play or other pantheon mods.\r\n[b]Civilization VI has not received updates for a long time, and the Create Your Pantheon Project Team would like to thank all the players who provided feedback for the workshop mod![/b]\r\nCreate Your Pantheon Project Team Members:\r\nnea_baraja: Planning, architecture, programming\r\nShizukaMogami(Qiangu Ge): Programming, testing\r\nPipikai: UI design, programming\r\nXimolan: Art\r\nPhantagonist: English translation\r\n[h1]Like Rewards[/h1]\r\n[i]50 likes[/i]: After staying up all night to release the mod and fix bugs, I woke up to a pleasant surprise of 50 likes for this mod. Thank you all for your support and appreciation! As a result, I prioritized completing the support for All-Pantheon Asuna in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935081425]Sword Art Online mod[/url]. Now, the effect of All-Pantheon Asuna is \"After choosing a pantheon, you gain the abilities of all the pantheons corresponding to the chosen domain and power.\" \r\n[i]100 likes[/i]: We are glad to see 100 likes within one day, so we made \"God of Craftsmen\" as a new domain which can provide player with more production. You can tell us which domain/power would you like to add to this mod in comment.\r\n[i]300 likes[/i]:God of Beauty added to game.\r\n[i]2000 likes[/i]:God of Miracle added to game.\r\nWe will continue developing new domains/powers and ensure compatibility with various excellent mods. If you have any suggestions, please feel free to comment in the workshop.\r\n[h1]Advertisement[/h1]\r\nRenowned modder Qiangu Ge has simultaneously released another anime pantheon mod based on nea_baraja\u0027s event framework. If you want to be the first to try the workshop\u0027s first mod that uses the event system, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2990087424]Meow, Are You Subscribing to anime Mods?[/url]\r\nThis mod is released as part of the Dark Age Mod and more standalone modules will be released in the future. Stay tuned!",
+                                                      "time_created":  1686923610,
+                                                      "time_updated":  1731744304,
+                                                      "visibility":  0,
+                                                      "banned":  0,
+                                                      "ban_reason":  "",
+                                                      "subscriptions":  53433,
+                                                      "favorited":  4289,
+                                                      "lifetime_subscriptions":  98752,
+                                                      "lifetime_favorited":  4953,
+                                                      "views":  218068,
+                                                      "tags":  [
+                                                                   {
+                                                                       "tag":  "Mod"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Gameplay"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "UI"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Game Balance"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Religions"
+                                                                   }
+                                                               ]
+                                                  },
+                                                  {
+                                                      "publishedfileid":  "1898889676",
+                                                      "result":  1,
+                                                      "creator":  "76561198024855712",
+                                                      "creator_app_id":  404350,
+                                                      "consumer_app_id":  289070,
+                                                      "filename":  "",
+                                                      "file_size":  "0",
+                                                      "file_url":  "",
+                                                      "hcontent_file":  "1723540506137596967",
+                                                      "preview_url":  "https://images.steamusercontent.com/ugc/761598535696192989/FEDEC15180AF6ABBD79A6D190725061D8AEE71F2/",
+                                                      "hcontent_preview":  "761598535696192989",
+                                                      "title":  "Gedemo Pantheons",
+                                                      "description":  "[IMG]https://steamusercontent-a.akamaihd.net/ugc/923668403111782532/34CBC07D7ED73B6282B3F7AF2E3D47BB462BF9B1/?interpolation=lanczos-none\u0026output-format=jpeg\u0026output-quality=95\u0026fit=inside%7C*%3A0[/IMG]\r\n[i][B]Compatible with New Frontier 2020 - Gathering Storm - Rise and Fall - Vanilla\r\n-\u003eThe Gathering Storm XP is necessary for this mod to work.[/B][/i]\r\n\r\n[quote]\r\n[h1][B]Gedemo Pantheons[/B][/h1]\r\n\r\n[h1] This is a mod that adds the following 6 new Pantheons to the game:\r\n[/h1] \r\n\r\n[B]Spirits of the Forest:[/B] \r\n+2 Faith from Forest tiles.\r\n\r\n[B]God of Thunder:[/B] \r\n+2 Power in your Cities for every religious building.\r\n\r\n[B]Human Sacrifices:[/B] \r\n+5 Faith and -15% Growth in your Capital City.\r\n\r\n[B]The Chosen One:[/B] \r\nA Great Prophet appears in your Capital\u0027s Holy Site.\r\n\r\n[B]Golden Calf:[/B] \r\n+2 Gold on Cattle, Sheep, and Horses. +1 Amenity in your cities.\r\n\r\n[B]Animal Totem:[/B] \r\n+2 Faith on Whales, Turtles, Deer and Furs.\r\n\r\n[h1]Support: [/h1]\r\nEnglish, French, German, Spanish, Italian and Portugese languages\r\n[/quote]\r\n[quote]\r\n[h1]Notes:[/h1][i]I will not always respond to comments on this page. These mods are tested before being uploaded.\r\nIn case of problems, please make sure these problems do not come from other mods.\r\nTo do this, disable the other mods and restart the game. If the problem persists, discuss it on my Civfanatics page: https://forums.civfanatics.com/threads/gedemos-civilizations.623444/[/i]\r\n[/quote]\r\n[quote]\r\n[h1]Thank you![/h1]\r\nIf you like this mod, feel free to give it a positive rating by clicking on the thumbs up, just below the screenshots. This allows the mod to be better known and especially it motivates me to improve and keep them up to date.\r\n\r\n[h1]Merci![/h1]\r\nSi vous aimez ce mod, n\u0027hesitez pas a lui donner une evaluation positive en cliquant sur le pouce leve, juste en dessous des captures d\u0027ecran. Cela permet de faire connaitre le mod et surtout cela me motive a m\u0027ameliorer et a les maintenir a jour.\r\n\r\n[h1]Danke![/h1]\r\nWenn du diesen Mod magst, kannst du ihm gerne eine positive Bewertung geben, indem du auf die Daumen oben direkt unter den Screenshots klickst. Dadurch kann der Mod besser bekannt gemacht werden und vor allem motiviert es mich, ihn zu verbessern und auf dem neuesten Stand zu halten.\r\n\r\n[/quote]",
+                                                      "time_created":  1572078524,
+                                                      "time_updated":  1601716273,
+                                                      "visibility":  0,
+                                                      "banned":  0,
+                                                      "ban_reason":  "",
+                                                      "subscriptions":  4833,
+                                                      "favorited":  452,
+                                                      "lifetime_subscriptions":  10128,
+                                                      "lifetime_favorited":  579,
+                                                      "views":  25955,
+                                                      "tags":  [
+                                                                   {
+                                                                       "tag":  "Mod"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Gameplay"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Gathering Storm"
+                                                                   },
+                                                                   {
+                                                                       "tag":  "Religions"
+                                                                   }
+                                                               ]
+                                                  }
+                                              ]
+                 }
+}

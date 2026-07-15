@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ZYL_LBM_NAME" Language="en_US">
+			<Text>ZYL's Lightweight Balance Mod</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_DESCRIPTION" Language="en_US">
+			<Text>Lightweight Civilization VI balance changes for friendly multiplayer games.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_TEASER" Language="en_US">
+			<Text>Lightweight multiplayer balance tweaks.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_NAME" Language="zh_Hans_CN">
+			<Text>ZYL的轻量化平衡模组</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用于朋友联机的文明6轻量化平衡调整。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_TEASER" Language="zh_Hans_CN">
+			<Text>轻量化联机平衡调整。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_ZYL_LBM_COMMERCIAL_HUB_LUXURY_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from adjacent Luxury resources.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ZYL_LBM_COMMERCIAL_HUB_LUXURY_GOLD" Language="zh_Hans_CN">
+			<Text>相邻奢侈资源+{1_num} [ICON_Gold] 金币。</Text>
+		</Row>
+
+		<Replace Tag="LOC_BUILDING_ZYL_LBM_BANK_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Gold] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZYL_LBM_BANK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZYL_LBM_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZYL_LBM_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>本城每位 [ICON_Citizen] 公民+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+
+		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_NAME" Language="en_US">
+			<Text>Moon Goddess</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>Coast and Ocean tiles provide +2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_NAME" Language="en_US">
+			<Text>Goddess of the Calm Sea</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>Fishing Boats provide +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_NAME" Language="en_US">
+			<Text>Goddess of Commerce</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity. All Trade Routes provide +1 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_NAME" Language="en_US">
+			<Text>Sun God</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_DESCRIPTION" Language="en_US">
+			<Text>Wheat, Rice, and Maize provide +2 [ICON_Faith] Faith.</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_NAME" Language="zh_Hans_CN">
+			<Text>月亮女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>海岸和海洋单元格+2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_NAME" Language="zh_Hans_CN">
+			<Text>深海女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>渔船+1 [ICON_Culture] 文化。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_NAME" Language="zh_Hans_CN">
+			<Text>商业女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。所有贸易路线+1 [ICON_Faith] 信仰。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_NAME" Language="zh_Hans_CN">
+			<Text>太阳神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>小麦、大米、玉米+2 [ICON_Faith] 信仰。</Text>
+		</Row>
+
+		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>+40% [ICON_Production] Production toward districts in cities without a specialty district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无特色区域的城市建造区域时+40% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="en_US">
+			<Text>Quarries provide +1 [ICON_Culture] Culture and +1 [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>采石场+1 [ICON_Culture] 文化、+1 [ICON_Faith] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="en_US">
+			<Text>Mines over Luxury and Bonus resources provide +3 [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奢侈资源和加成资源上的矿山+3 [ICON_Faith] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Production] Production toward wonders from all eras.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造所有时代的奇观时+15% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="en_US">
+			<Text>Volcanic Soil and Geothermal Fissures provide +4 [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>火山土和地热裂缝+4 [ICON_Faith] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Tiles with Charming or better Appeal provide +1 [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魅力为迷人及以上的单元格+1 [ICON_Faith] 信仰。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

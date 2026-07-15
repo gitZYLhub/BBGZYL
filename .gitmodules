@@ -1,0 +1,3 @@
+[submodule "BetterBalancedGame"]
+	path = BetterBalancedGame
+	url = https://github.com/CivilizationVIBetterBalancedGame/BetterBalancedGame.git

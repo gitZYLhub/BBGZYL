@@ -1,0 +1,24 @@
+# Local Codex state
+.agents/
+.codex/
+
+# SteamCMD runtimes, downloaded workshop payloads, and local caches
+steamcmd/
+tools/steamcmd/
+tools/steamcmd.zip
+referencemods/steamcmd/
+
+# Captured web/search scratch files kept only for local investigation
+*.html
+ggntw_*
+github_code_search_*.html
+github_search_*.json
+grepapp_*.json
+p0kiehl_*.html
+steam_*.html
+steam_*.json
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
