@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+ 	<Types>   
+  <!-- 删除城邦
+		<Delete Type="CIVILIZATION_AMSTERDAM" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_BRUSSELS" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_CARTHAGE" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_GENEVA" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_HATTUSA" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_HONG_KONG" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_JAKARTA" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_JERUSALEM" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_KANDY" Kind="KIND_CIVILIZATION"/>	
+	-->	
+	
+	<!--
+		<Delete Type="CIVILIZATION_KUMASI" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_BABYLON" Kind="KIND_CIVILIZATION"/>
+		
+		-->	
+		
+		<Delete Type="CIVILIZATION_AUCKLAND" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_BOLOGNA" Kind="KIND_CIVILIZATION"/>
+<!--
+		<Delete Type="CIVILIZATION_LA_VENTA" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_LISBON" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_PRESLAV" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_SEOUL" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_STOCKHOLM" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_TORONTO" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_VILNIUS" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_YEREVAN" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_ANTANANARIVO" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_ARMAGH" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_GRANADA" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_MUSCAT" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_PALENQUE" Kind="KIND_CIVILIZATION"/>
+		<Delete Type="CIVILIZATION_ANTIOCH" Kind="KIND_CIVILIZATION"/>
+  <!-- 删除信条 	
+		<Delete Type="BELIEF_GOD_OF_WAR" Kind="KIND_BELIEF"/>
+		<Delete Type="BELIEF_INITIATION_RITES" Kind="KIND_BELIEF"/>
+		<Delete Type="BELIEF_GOD_OF_HEALING" Kind="KIND_BELIEF"/>   -->	
+  	</Types>  
+
+<!-- 资源 -->
+
+	<Resources>
+	
+		<Update>
+			<Where ResourceType="RESOURCE_FISH"/>
+			<Set SeaFrequency="22"/>
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_CRABS"/>
+			<Set SeaFrequency="18"/>
+		</Update>	
+		
+		<!--
+		<Update>
+			<Where ResourceType="RESOURCE_DEER"/>
+			<Set Frequency="4"/>
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_STONE"/>
+			<Set Frequency="6"/>
+		</Update>
+         -->
+	</Resources>
+	<!--
+	<Resource_ValidFeatures>
+		<Delete ResourceType="RESOURCE_RICE" FeatureType="FEATURE_MARSH"/>
+	</Resource_ValidFeatures>
+	-->
+	
+	<!--
+	<Resource_ValidTerrains>
+		<Delete ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_TUNDRA"/>
+		<Delete ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_PLAINS_HILLS"/> 			
+		<Delete	ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Delete ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+	</Resource_ValidTerrains>
+	-->
+	 <Resource_YieldChanges>
+		<!--<Update>
+			<Where ResourceType="RESOURCE_SPICES" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="1"/>
+		</Update>  -->
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_SHEEP" YieldType="YIELD_FOOD"/>
+			<Set YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		</Update> -->	
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_DEER" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldType="YIELD_GOLD" YieldChange="2"/>
+		</Update> -->
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_WHEAT" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2"/>
+		</Update> -->
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_STONE" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="1"/>
+		</Update> -->
+		 <Update>
+			<Where ResourceType="RESOURCE_CRABS" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="1"/>
+		</Update> 
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_COPPER" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="3"/>
+		</Update> -->
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_FISH" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2"/>
+		</Update> -->
+		<Update>
+			<Where ResourceType="RESOURCE_OLIVES" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="3"/>
+		</Update>		
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_WHALES" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2"/>
+		</Update> -->
+		<!-- <Row ResourceType="RESOURCE_STONE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<!-- <Update>
+			<Where ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="5"/>
+		</Update>  -->
+		<!-- <Row ResourceType="RESOURCE_FISH" YieldType="YIELD_GOLD" YieldChange="1"/>
+	    <Row ResourceType="RESOURCE_RICE" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+<!--		<Row ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD" YieldChange="3"/>-->
+        <Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<!-- <Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		
+		<Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_FOOD" YieldChange="1"/> -->
+		<!-- <Row ResourceType="RESOURCE_FISH" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<!-- <Row ResourceType="RESOURCE_COTTON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+				
+		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<Row ResourceType="RESOURCE_JADE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<!--<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		 <Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_PRODUCTION" YieldChange="1"/> 
+		<!-- <Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<!--<Row ResourceType="RESOURCE_HONEY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>-->
+		<!-- <Row ResourceType="RESOURCE_MAIZE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_CULTURE" YieldChange="1"/>-->
+		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_FOOD" YieldChange="1"/> 
+		
+		 <Row ResourceType="RESOURCE_SILVER" YieldType="YIELD_PRODUCTION" YieldChange="1"/> 
+		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		
+		<!-- <Row ResourceType="RESOURCE_CITRUS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_WINE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_SUGAR" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<!--<Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_FOOD" YieldChange="1"/> -->
+		
+		
+		<!-- <Update> 
+			<Where ResourceType="RESOURCE_WINE" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="0"/>
+		</Update>
+		<Update> 
+			<Where ResourceType="RESOURCE_BANANAS" YieldType="YIELD_FOOD"/>
+			<Set YieldType="YIELD_PRODUCTION"/>
+		</Update>			
+		<Update> 
+			<Where ResourceType="RESOURCE_WHALES" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2"/>
+		</Update>		
+		<Update> 
+			<Where ResourceType="RESOURCE_CITRUS" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="1"/>
+		</Update> -->
+		<!-- <Update> 
+			<Where ResourceType="RESOURCE_PEARLS" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="0"/>
+		</Update> -->
+
+		<!-- <Update> 
+			<Where ResourceType="RESOURCE_SUGAR" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="1"/>
+		</Update> -->
+		<!-- <Row ResourceType="RESOURCE_SALT" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_TEA" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<!--<Update> 
+			<Where ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update> 
+			<Where ResourceType="RESOURCE_DYES" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="2"/>
+		</Update>-->
+		<Update> 
+			<Where ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="1"/>
+		</Update>
+		
+	</Resource_YieldChanges>
+		
+	<!-- <Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_MARSH" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where FeatureType="FEATURE_OASIS" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="1"/>
+		</Update>
+		<Row FeatureType="FEATURE_MARSH" YieldType="YIELD_GOLD" YieldChange="0"/>
+		<Row FeatureType="FEATURE_OASIS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>	
+		<Row FeatureType="FEATURE_GEOTHERMAL_FISSURE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>			
+	</Feature_YieldChanges> -->
+
+
+	<Terrain_YieldChanges>	
+ <!--	    <Row TerrainType="TERRAIN_TUNDRA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	<Row TerrainType="TERRAIN_GRASS" YieldType="YIELD_PRODUCTION" YieldChange="1"/> -->
+		<!-- <Update>
+			<Where TerrainType="TERRAIN_PLAINS" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where TerrainType="TERRAIN_SNOW_HILLS" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where TerrainType="TERRAIN_DESERT_HILLS" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="1"/>
+		</Update> -->
+	</Terrain_YieldChanges>	
+	
+	<Resource_ValidTerrains>
+		 <Delete ResourceType="RESOURCE_AMBER" TerrainType="TERRAIN_COAST"/> 
+	</Resource_ValidTerrains>
+	
+  <!-- 信条商业女神 -->
+	 <Types>
+		<Row Type="BELIEF_GODDESS_OF_COMMERCE" Kind="KIND_BELIEF"/>
+	</Types>
+	<Beliefs>
+		<Row BeliefType="BELIEF_GODDESS_OF_COMMERCE" Name="LOC_BELIEF_GODDESS_OF_COMMERCE_NAME" Description="LOC_BELIEF_GODDESS_OF_COMMERCE_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	</Beliefs>
+	<Modifiers>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_SLOT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_SLOT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_SLOT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GODDESS_OF_COMMERCE_TRADE_ROUTE_SLOT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_SLOT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+
+	</ModifierArguments>
+	<BeliefModifiers>
+		<Row BeliefType="BELIEF_GODDESS_OF_COMMERCE">
+			<ModifierID>GODDESS_OF_COMMERCE_TRADE_ROUTE_SLOT</ModifierID>
+		</Row>
+		<Row BeliefType="BELIEF_GODDESS_OF_COMMERCE">
+			<ModifierID>GODDESS_OF_COMMERCE_TRADE_ROUTE_GOLD</ModifierID>
+		</Row>
+	</BeliefModifiers>
+
+	<!-- 国家 -->	
+	<!-- 希腊 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_GREEK_HOPLITE"/>
+			<Set Combat="27"/>
+		</Update>
+	</Units>
+
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="HOPLITE_NEIGHBOR_COMBAT_MODIFIER" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="UNIQUE_LEADER_CULTURE_KILLS" Name="PercentDefeatedStrength"/>
+			<Set Value="20"/>
+		</Update>
+
+	</ModifierArguments>
+	<!-- 埃及 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>		
+			<Set Cost="80" BaseMoves="2" Combat="20" RangedCombat="25"/>
+		</Update>
+	</Units>
+    <UnitReplaces>
+		<Delete CivUniqueUnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+	</UnitReplaces>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="TRAIT_RIVER_FASTER_BUILDTIME_DISTRICT" Name="Amount"/>
+			<Set Value="25"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_RIVER_FASTER_BUILDTIME_WONDER" Name="Amount"/>
+			<Set Value="25"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_INCOMING_TRADE_GAIN_GOLD" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		
+	</ModifierArguments>
+  <!-- 狮身人面像---->	
+  <!--
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 苏美尔 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SUMERIAN_WAR_CART"/>
+			<Set Combat="32" Cost="70" MandatoryObsoleteTech="TECH_COMBUSTION" PrereqTech="TECH_THE_WHEEL"/>
+		</Update>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_SUMERIAN_WAR_CART" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+	</UnitReplaces>
+	 -->
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_FOOD" YieldChange="0"/>
+	</Improvement_YieldChanges>	
+	<!-- 中国 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set Cost="180" RangedCombat="42" Range="2"/>
+		</Update>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CHINESE_CROUCHING_TIGER" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+	</UnitReplaces>
+	<!-- 长城位置限制 
+	<Improvements>
+			<Update>
+			<Where ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+			<Set>
+				<BuildOnFrontier>false</BuildOnFrontier>
+			</Set>
+		</Update>
+	</Improvements>
+	-->
+	<!-- 法国 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set Cost="250" BaseMoves="3" Maintenance="4" Combat="58" PrereqTech="TECH_GUNPOWDER"/>
+		</Update>
+	</Units>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GARDE_CONTINENT_COMBAT" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+	</ModifierArguments>
+	<Improvements>
+		<Update>
+			<Where Name="LOC_IMPROVEMENT_CHATEAU_NAME"/>
+			<Set RequiresRiver="false"/>
+		</Update>
+	</Improvements>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 刚果-->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set Cost="90"/>
+		</Update>
+	</Units>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="NAGAO_RANGED_DEFENSE" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+	</ModifierArguments>
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_MBANZA</DistrictType>
+			<ModifierId>MBANZA_PRODUCTION</ModifierId>
+		</Row>	
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MBANZA_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>	
+	</Modifiers>
+	<ModifierArguments>	
+		<Row>
+			<ModifierId>MBANZA_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MBANZA_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>	
+	</ModifierArguments>	
+	<!-- 西班牙 -->
+	
+	
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="CONQUISTADOR_SPECIFIC_UNIT_COMBAT" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		
+	</ModifierArguments>	
+	
+	
+	<!-- 挪威 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set Cost="180" Combat="45" BaseMoves="4"/>
+		</Update>
+	</Units>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="UNIT_STRONG_WHEN_ATTACKING" Name="Amount"/>
+			<Set Value="10"/>
+		</Update>
+		<Update>
+			<Where ModifierId="STAVECHURCH_SEARESOURCE_PRODUCTION" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+	</ModifierArguments>
+
+	<!-- 美国 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set Cost="340" Combat="62" StrategicResource="RESOURCE_IRON" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" PrereqTech="TECH_MILITARY_SCIENCE"/>
+		</Update>		
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_AMERICAN_ROUGH_RIDER" ResourceCost="20"/>
+	</Units_XP2>
+	<UnitUpgrades>
+		<Delete Unit="UNIT_AMERICAN_ROUGH_RIDER" UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<Row Unit="UNIT_AMERICAN_ROUGH_RIDER" UpgradeUnit="UNIT_HELICOPTER"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_AMERICAN_ROUGH_RIDER" ReplacesUnitType="UNIT_CAVALRY"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Delete Type="UNIT_AMERICAN_ROUGH_RIDER" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_AMERICAN_ROUGH_RIDER" Tag="CLASS_LIGHT_CAVALRY"/>
+	</TypeTags>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="ROOSEVELT_COMBAT_BONUS_HOME_CONTINENT" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="ROUGH_RIDER_BONUS_ON_HILLS" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_ALL_DIPLO_POLICY_ARE_WILDCARDS" Name="AddedGovernmentSlotType"/>
+			<Set Value="SLOT_ECONOMIC"/>
+		</Update>
+	</ModifierArguments>
+	<!--
+	<CivilizationTraits>
+		<Delete CivilizationType="CIVILIZATION_AMERICA" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/>
+	</CivilizationTraits>
+	-->
+	<!-- 英国 -->
+	<!--
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="ROYAL_NAVY_DOCKYARD_GOLD_FROM_FOREIGN_CONTINENT" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="REDCOAT_FOREIGN_COMBAT" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+	</ModifierArguments>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="RoyalDock_City_Gold"/>
+			<Set YieldChange="3"/>
+		</Update>
+	</Adjacency_YieldChanges>	
+	<!-- 阿兹特克 -->
+	<!--
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_AZTEC_EAGLE_WARRIOR"/>
+			<Set Cost="40" Combat="22" />
+		</Update>
+	</Units>
+	<!--
+	<UnitReplaces>
+		<Delete CivUniqueUnitType="UNIT_AZTEC_EAGLE_WARRIOR" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_AZTEC_EAGLE_WARRIOR" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Delete Unit="UNIT_AZTEC_EAGLE_WARRIOR" UpgradeUnit="UNIT_SWORDSMAN"/>
+		<Row Unit="UNIT_AZTEC_EAGLE_WARRIOR" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+
+  <!-- 双倍山---->
+<!--  
+    <Features>
+		<Update>
+			<Where FeatureType="FEATURE_TORRES_DEL_PAINE"/>
+			<Set>
+				<DoubleAdjacentTerrainYield>false</DoubleAdjacentTerrainYield>
+			</Set>
+		</Update>
+	</Features>
+	
+	<Feature_AdjacentYields>
+		<Row FeatureType="FEATURE_TORRES_DEL_PAINE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Feature_AdjacentYields>
+  	<!--  海神+2金-->	
+	<!--
+	<ModifierArguments>	
+	    <Delete ModifierId="GOD_OF_THE_SEA_FISHINGBOATS_PRODUCTION_MODIFIER"/>
+		<Row>
+			<ModifierId>GOD_OF_THE_SEA_FISHINGBOATS_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOD_OF_THE_SEA_FISHINGBOATS_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="NATURALPHILOSOPHY_DISTRICTSCIENCE" Name="Amount"/>
+			<Set Value="100"/>
+		</Update>
+	</ModifierArguments>
+	
+	
+	<!--村庄-->
+	<!--
+	<GoodyHutSubTypes>
+		<Update>
+			<Where GoodyHut="GOODYHUT_FAITH" SubTypeGoodyHut="GOODYHUT_SMALL_FAITH"/>
+			<Set Turn="0"/>
+		</Update>
+		<Update>
+			<Where GoodyHut="GOODYHUT_MILITARY" SubTypeGoodyHut="GOODYHUT_HEAL"/>
+			<Set Weight="0"/>
+		</Update>	
+		<Delete GoodyHut="GOODYHUT_DIPLOMACY" SubTypeGoodyHut="GOODYHUT_GOVERNOR_TITLE" Description="LOC_GOODYHUT_DIPLOMACY_GOVERNOR_TITLE_DESCRIPTION" Weight="15" Turn="30" ModifierID="GOODY_DIPLOMACY_GRANT_GOVERNOR_TITLE"/>
+		<Delete GoodyHut="GOODYHUT_DIPLOMACY" SubTypeGoodyHut="GOODYHUT_ENVOY" Description="LOC_GOODYHUT_DIPLOMACY_ENVOY_DESCRIPTION" Weight="40" ModifierID="GOODY_DIPLOMACY_GRANT_ENVOY"/>
+		<Delete GoodyHut="GOODYHUT_SURVIVORS" SubTypeGoodyHut="GOODYHUT_GRANT_BUILDER" Description="LOC_GOODYHUT_SURVIVORS_GRANT_UNIT_DESCRIPTION" Weight="35" MinOneCity="true" RequiresUnit="true" ModifierID="GOODY_SURVIVORS_GRANT_BUILDER"/>
+	</GoodyHutSubTypes>
+	<!--长剑士-->
+	<!--
+	<Types>
+		<Row Type="UNIT_LONGSWORDSMAN" Kind="KIND_UNIT"/>
+	</Types>
+
+	<UnitAiInfos>	
+		<Row UnitType="UNIT_LONGSWORDSMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LONGSWORDSMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_LONGSWORDSMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_LONGSWORDSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_LONGSWORDSMAN" Tag="CLASS_MELEE"/>
+	</TypeTags>
+
+	<Units>
+		<Row UnitType="UNIT_LONGSWORDSMAN" Cost="140" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="42" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_LONGSWORDSMAN_NAME" Description="LOC_UNIT_LONGSWORDSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MILITARY_ENGINEERING"/>
+	</Units>
+	
+	<Units_XP2>
+		<Row UnitType="UNIT_LONGSWORDSMAN" ResourceCost="15"/>
+	</Units_XP2>
+
+	<UnitUpgrades>
+		<Update>
+			<Where Unit="UNIT_SWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_ROMAN_LEGION" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_KONGO_SHIELD_BEARER" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_GEORGIAN_KHEVSURETI" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_MACEDONIAN_HYPASPIST" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_PERSIAN_IMMORTAL" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_JINWEI" UpgradeUnit="UNIT_MUSKETMAN"/>
+			<Set UpgradeUnit="UNIT_LONGSWORDSMAN"/>
+		</Update>
+		<Row Unit="UNIT_LONGSWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>   
+	</UnitUpgrades> -->
+	<!--重型桨帆船
+	<Types>
+		<Row Type="UNIT_GALLERY_GALLEY" Kind="KIND_UNIT"/>
+	</Types>
+
+	<UnitAiInfos>	
+		<Row UnitType="UNIT_GALLERY_GALLEY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GALLERY_GALLEY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GALLERY_GALLEY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GALLERY_GALLEY" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_GALLERY_GALLEY" Tag="CLASS_NAVAL_MELEE"/>
+	</TypeTags>
+
+	<Units>
+		<Row UnitType="UNIT_GALLERY_GALLEY" Cost="117" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="40" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GALLERY_GALLEY_NAME" Description="LOC_UNIT_GALLERY_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_MATHEMATICS"/>
+	</Units>
+
+
+	<UnitUpgrades>
+		<Update>
+			<Where Unit="UNIT_GALLEY" UpgradeUnit="UNIT_CARAVEL"/>
+			<Set UpgradeUnit="UNIT_GALLERY_GALLEY"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_NORWEGIAN_LONGSHIP" UpgradeUnit="UNIT_CARAVEL"/>
+			<Set UpgradeUnit="UNIT_GALLERY_GALLEY"/>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_PHOENICIA_BIREME" UpgradeUnit="UNIT_CARAVEL"/>
+			<Set UpgradeUnit="UNIT_GALLERY_GALLEY"/>
+		</Update>
+		<Row Unit="UNIT_GALLERY_GALLEY" UpgradeUnit="UNIT_CARAVEL"/>	
+	</UnitUpgrades>
+	-->
+	<!--巴西-->
+	<!--
+	
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_AMAZON_IMPROVEMENT_HONGLIN_MILL" Name="LOC_TRAIT_CIVILIZATION_AMAZON_IMPROVEMENT_HONGLIN_MILL_NAME"/>
+	</Traits>	
+	
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_AMAZON_IMPROVEMENT_HONGLIN_MILL" Kind="KIND_TRAIT"/>
+		<Row Type="IMPROVEMENT_HONGLIN_MILL" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" TraitType="TRAIT_CIVILIZATION_AMAZON_IMPROVEMENT_HONGLIN_MILL"/>
+	</CivilizationTraits>
+
+
+
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_HONGLIN_MILL" Name="LOC_IMPROVEMENT_HONGLIN_MILL_NAME" Description="LOC_IMPROVEMENT_HONGLIN_MILL_DESCRIPTION" Icon="ICON_IMPROVEMENT_LUMBER_MILL" PlunderType="PLUNDER_GOLD" PlunderAmount="12" Buildable="true" PrereqTech="TECH_CONSTRUCTION" TraitType="TRAIT_CIVILIZATION_AMAZON_IMPROVEMENT_HONGLIN_MILL" />
+	</Improvements>
+ 
+ 	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_HONGLIN_MILL" FeatureType="FEATURE_JUNGLE"/>
+	</Improvement_ValidFeatures>
+ 
+ 	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_HONGLIN_MILL" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+ 
+ 	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_HONGLIN_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HONGLIN_MILL" YieldType="YIELD_GOLD" YieldChange="2"/>
+	</Improvement_YieldChanges>
+ 
+	<Improvement_BonusYieldChanges>
+		<Row Id="IMPROVEMENT_HONGLIN_MILL_1" ImprovementType="IMPROVEMENT_HONGLIN_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqCivic="CIVIC_MERCANTILISM"/>
+		<Row Id="IMPROVEMENT_HONGLIN_MILL_2" ImprovementType="IMPROVEMENT_HONGLIN_MILL" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqCivic="CIVIC_MERCANTILISM"/>
+		<Row Id="IMPROVEMENT_HONGLIN_MILL_3" ImprovementType="IMPROVEMENT_HONGLIN_MILL" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_MOBILIZATION"/>
+ 	</Improvement_BonusYieldChanges>
+	
+	<!--印尼--购买海军打折50%-->
+<!--	
+
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>LEADER_EXALTED_GODDESS_1</ModifierId>
+		</Row>	
+	</TraitModifiers>	
+	
+	<Modifiers>	
+		<Row>
+			<ModifierId>LEADER_EXALTED_GODDESS_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNITS_PURCHASE_COST</ModifierType>
+		</Row>	
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_EXALTED_GODDESS_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_EXALTED_GODDESS_1</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+	</ModifierArguments>	
+	-->
+	<!--天文台基础+1-->
+	<!-- <District_Adjacencies>
+		<Row DistrictType="DISTRICT_OBSERVATORY" YieldChangeId="District123_Science"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="District123_Science" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" Self="true"/>
+	</Adjacency_YieldChanges> -->
+	<!--村庄-->
+	<GoodyHutSubTypes>
+		<Update>
+			<Where GoodyHut="GOODYHUT_FAITH" SubTypeGoodyHut="GOODYHUT_SMALL_FAITH"/>
+			<Set Turn="0"/>
+		</Update>
+		<Update>
+			<Where GoodyHut="GOODYHUT_MILITARY" SubTypeGoodyHut="GOODYHUT_HEAL"/>
+			<Set Weight="0"/>
+		</Update>	
+		<Delete GoodyHut="GOODYHUT_DIPLOMACY" SubTypeGoodyHut="GOODYHUT_GOVERNOR_TITLE" Description="LOC_GOODYHUT_DIPLOMACY_GOVERNOR_TITLE_DESCRIPTION" Weight="15" Turn="30" ModifierID="GOODY_DIPLOMACY_GRANT_GOVERNOR_TITLE"/>
+		<Delete GoodyHut="GOODYHUT_DIPLOMACY" SubTypeGoodyHut="GOODYHUT_ENVOY" Description="LOC_GOODYHUT_DIPLOMACY_ENVOY_DESCRIPTION" Weight="40" ModifierID="GOODY_DIPLOMACY_GRANT_ENVOY"/>
+		<Delete GoodyHut="GOODYHUT_SURVIVORS" SubTypeGoodyHut="GOODYHUT_GRANT_BUILDER" Description="LOC_GOODYHUT_SURVIVORS_GRANT_UNIT_DESCRIPTION" Weight="35" MinOneCity="true" RequiresUnit="true" ModifierID="GOODY_SURVIVORS_GRANT_BUILDER"/>
+	</GoodyHutSubTypes>
+</GameData>
+
+
+
+

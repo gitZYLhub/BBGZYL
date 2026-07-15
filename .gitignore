@@ -2,8 +2,17 @@
 .agents/
 .codex/
 
-# SteamCMD runtimes, downloaded workshop payloads, and local caches
-steamcmd/
+# SteamCMD runtimes and local caches. Keep downloaded reference Workshop mods.
+steamcmd/*
+!steamcmd/steamapps/
+steamcmd/steamapps/*
+!steamcmd/steamapps/workshop/
+steamcmd/steamapps/workshop/*
+!steamcmd/steamapps/workshop/appworkshop_289070.acf
+!steamcmd/steamapps/workshop/content/
+steamcmd/steamapps/workshop/content/*
+!steamcmd/steamapps/workshop/content/289070/
+!steamcmd/steamapps/workshop/content/289070/**
 tools/steamcmd/
 tools/steamcmd.zip
 referencemods/steamcmd/
