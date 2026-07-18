@@ -6,5 +6,11 @@
 -- files so they are easy to review and toggle.
 ------------------------------------------------------------------------------
 
--- This first version intentionally has no global helper SQL yet.
--- Add reusable RequirementSets, Requirements, or Modifier patterns here later.
+-- The Expansion rulesets define a per-population city-yield modifier, but the
+-- standard ruleset does not register that ModifierType. Define a namespaced
+-- equivalent so Base/Buffs.sql works in every supported ruleset.
+INSERT OR IGNORE INTO Types (Type, Kind) VALUES
+	('MODIFIER_ZYL_LBM_SINGLE_CITY_ADJUST_YIELD_PER_POPULATION', 'KIND_MODIFIER');
+
+INSERT OR IGNORE INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES
+	('MODIFIER_ZYL_LBM_SINGLE_CITY_ADJUST_YIELD_PER_POPULATION', 'COLLECTION_OWNER', 'EFFECT_ADJUST_CITY_YIELD_PER_POPULATION');

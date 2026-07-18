@@ -20,6 +20,192 @@
 			<Text>轻量化联机平衡调整。</Text>
 		</Row>
 
+		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Mines.[NEWLINE][NEWLINE]+1 [ICON_Production] Production. -1 Appeal. Can be built on hills, valid resources, or Geothermal Fissures.[NEWLINE][NEWLINE]If built on Luxury or Strategic resources, the city will gain use of that resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造矿山的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。-1魅力。可在丘陵、有效资源或地热裂缝上建造。[NEWLINE][NEWLINE]如果建在奢侈品资源或战略资源上，城市则可以利用该资源。</Text>
+		</Replace>
+
+		<Row Tag="LOC_BUILDING_ZYL_LBM_WALLS_DESCRIPTION" Language="en_US">
+			<Text>Provides Walls around the City Center and Encampment district, adding 50 Outer Defense Hit Points and +3 Outer Defense Strength. Walls allow [ICON_Ranged] Ranged Strikes from the City Center and Encampment district, and must normally be defeated before a city can be assaulted. Provides 1 [ICON_Tourism] Tourism after advancing to Conservation.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_CASTLE_DESCRIPTION" Language="en_US">
+			<Text>Adds 50 Outer Defense Hit Points and +3 Outer Defense Strength to the City Center and Encampment district. Provides 2 [ICON_Tourism] Tourism after advancing to Conservation.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_STAR_FORT_DESCRIPTION" Language="en_US">
+			<Text>Adds 50 Outer Defense Hit Points and +3 Outer Defense Strength to the City Center and Encampment district. Provides 3 [ICON_Tourism] Tourism after advancing to Conservation.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION" Language="en_US">
+			<Text>Grants Urban Defenses to all cities, setting their Outer Defense Hit Points to 200 and allowing them to perform [ICON_Ranged] Ranged Strikes.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_TSIKHE_DESCRIPTION" Language="en_US">
+			<Text>Unique Georgian replacement for Renaissance Walls. +50% [ICON_Production] Production toward this building. Adds 100 Outer Defense Hit Points and +3 Outer Defense Strength to the City Center and Encampment district, and provides +4 [ICON_Faith] Faith. During a Golden Age it provides an additional +4 [ICON_Faith] Faith; after Conservation it also provides 3 [ICON_Tourism] Tourism during Golden Ages.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZYL_LBM_MILITARY_ENGINEER_DESCRIPTION" Language="en_US">
+			<Text>Medieval era support unit. Requires an Armory to produce. Can construct ordinary Roads without spending a build charge, but each road tile costs 1 [ICON_RESOURCE_IRON] Iron. Can also construct Railroads, Forts, Airstrips, Missile Silos, and Mountain Tunnels. A build charge can complete 20% of an Aqueduct, Bath, Canal, or Dam district, or a Flood Barrier. Railroads retain their normal cost of 1 [ICON_RESOURCE_IRON] Iron and 1 [ICON_RESOURCE_COAL] Coal per tile and do not consume build charges.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ZYL_LBM_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为市中心和军营区提供城墙，增加50点外部防御生命值和3点外部防御力。城墙使市中心和军营区能够发动[ICON_Ranged]远程攻击；通常必须先摧毁外部防御，才能攻击城市生命值。解锁“自然保护”市政后提供1点[ICON_Tourism]旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为市中心和军营区增加50点外部防御生命值和3点外部防御力。解锁“自然保护”市政后提供2点[ICON_Tourism]旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_STAR_FORT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为市中心和军营区增加50点外部防御生命值和3点外部防御力。解锁“自然保护”市政后提供3点[ICON_Tourism]旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为所有城市解锁都市防御，将其外部防御生命值设为200，并允许城市发动[ICON_Ranged]远程攻击。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_TSIKHE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>格鲁吉亚特色建筑，替代文艺复兴城墙。建造该建筑时+50% [ICON_Production]生产力。为市中心和军营区增加100点外部防御生命值和3点外部防御力，并提供+4 [ICON_Faith]信仰值。黄金时代期间额外+4 [ICON_Faith]信仰值；解锁“自然保护”市政后，黄金时代期间还提供3点[ICON_Tourism]旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZYL_LBM_MILITARY_ENGINEER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪支援单位，需要兵工厂才能生产。可建造普通道路且不消耗建造次数，但每格道路消耗1点[ICON_RESOURCE_IRON]铁。还可建造铁路、堡垒、飞机跑道、导弹发射井和山脉隧道。可消耗1次建造次数，完成水渠、浴场、运河或堤坝区域，或防洪堤20%的生产进度。铁路保持原版规则：每格消耗1点[ICON_RESOURCE_IRON]铁和1点[ICON_RESOURCE_COAL]煤，且不消耗建造次数。</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="en_US">
+			<Text>Settling adjacent to Fresh Water and Coast does not provide extra [ICON_HOUSING] Housing. Instead, each Farm provides an additional +1 [ICON_HOUSING] Housing, +1 [ICON_Production] Production for every adjacent Observatory, and +1 [ICON_Gold] Gold. The Palace provides an additional +2 [ICON_Housing] Housing. Builders can construct Farms on Grassland Hills and Plains Hills without Civil Engineering. +1 [ICON_Amenities] Amenity for every Luxury resource adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="en_US">
+			<Text>Non-capital cities within 8 tiles of the [ICON_Capital] Capital gain +10% to all yields and receive a Builder when founded. Other non-capital cities receive -15% to all yields. Units within 8 tiles of the [ICON_Capital] Capital gain +5 [ICON_Strength] Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength to units within 8 tiles of the [ICON_Capital] Capital (Ix Mutal Ajaw).</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在淡水和海岸旁定居时不提供额外 [ICON_Housing] 住房；但每座农场额外+1 [ICON_Housing] 住房、每与一座天文台相邻则+1 [ICON_Production] 生产力、+1 [ICON_Gold] 金币。宫殿额外+2 [ICON_Housing] 住房。建造者无需解锁“土木工程”市政即可在草原丘陵和平原丘陵上修建农场。每有一种奢侈品与市中心相邻，则+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Capital] 首都8单元格范围内的非首都城市所有产出+10%，且建成时将获得1名建造者。其他非首都城市的所有产出-15%。[ICON_Capital] 首都8单元格范围内的单位+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Capital] 首都8个单元格内的单位+5 [ICON_Strength] 战斗力（穆塔尔忠烈之女）。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>Pen, Brush, and Voice Golden Age:[NEWLINE][ICON_CivicBoosted] Inspirations provide an additional 10% of civic costs. Each city receives +2 [ICON_Culture] Culture for each specialty district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“百花齐放”黄金时代：[NEWLINE][ICON_CivicBoosted] 鼓舞额外提供10%的市政开销。城市每拥有1处特色区域，则+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_2" Language="en_US">
+			<Text>[ICON_SECRETSOCIETY_OWLS] {LOC_SECRETSOCIETY_OWLS_OF_MINERVA_DESCRIPTION} Attempt contact by sending [ICON_Envoy] Envoys to City-States where you currently have no [ICON_Envoy] Envoys. In this mod, contact from this source is virtually guaranteed.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_2" Language="zh_Hans_CN">
+			<Text>[ICON_SECRETSOCIETY_OWLS] {LOC_SECRETSOCIETY_OWLS_OF_MINERVA_DESCRIPTION} 向目前尚未派驻 [ICON_Envoy] 使者的城邦派遣 [ICON_Envoy] 使者，可尝试与其取得联系。本模组中，通过此来源与该结社取得联系基本必定成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_3" Language="en_US">
+			<Text>[ICON_SECRETSOCIETY_HERMETIC] {LOC_SECRETSOCIETY_HERMETIC_ORDER_DESCRIPTION} Attempt contact by discovering Natural Wonders. In this mod, contact from this source is virtually guaranteed.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_3" Language="zh_Hans_CN">
+			<Text>[ICON_SECRETSOCIETY_HERMETIC] {LOC_SECRETSOCIETY_HERMETIC_ORDER_DESCRIPTION} 发现自然奇观时，可尝试与其取得联系。本模组中，通过此来源与该结社取得联系基本必定成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_4" Language="en_US">
+			<Text>[ICON_SECRETSOCIETY_VOIDSINGERS] {LOC_SECRETSOCIETY_VOIDSINGERS_DESCRIPTION} Attempt contact by investigating Tribal Villages. In this mod, contact from this source is virtually guaranteed.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_4" Language="zh_Hans_CN">
+			<Text>[ICON_SECRETSOCIETY_VOIDSINGERS] {LOC_SECRETSOCIETY_VOIDSINGERS_DESCRIPTION} 调查部落村庄时，可尝试与其取得联系。本模组中，通过此来源与该结社取得联系基本必定成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_5" Language="en_US">
+			<Text>[ICON_SECRETSOCIETY_SANGUINE] {LOC_SECRETSOCIETY_SANGUINE_PACT_DESCRIPTION} Attempt contact by clearing Barbarian Camps. In this mod, contact from this source is virtually guaranteed.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_5" Language="zh_Hans_CN">
+			<Text>[ICON_SECRETSOCIETY_SANGUINE] {LOC_SECRETSOCIETY_SANGUINE_PACT_DESCRIPTION} 清除蛮族营地时，可尝试与其取得联系。本模组中，通过此来源与该结社取得联系基本必定成功。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_2_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Medieval Era. Allows you to construct the Gilded Vault building, a powerful replacement for the Bank. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在中世纪解锁。允许建造“银行”的强力替代品：“镀金宝库”。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_3_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Renaissance Era. +1 Wildcard policy slot. +2 Spy capacity. Your cities gain +4 Loyalty per turn and +1 [ICON_Amenities] Amenity when your Spy is in their territory. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在文艺复兴时代解锁。+1通配符政策槽位。+2间谍容量。您的间谍处于本方城市的领土中时，城市每回合+4忠诚度、+1 [ICON_Amenities] 宜居度。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_4_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Industrial Era. Every turn, you earn 3% of the [ICON_Gold] Gold in your treasury as income. Whenever an offensive Spy mission succeeds, you also gain half of the [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold, and [ICON_Faith] Faith that the targeted city earned that turn. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在工业时代解锁。每回合您将获得等同于国库3%的 [ICON_Gold] 金币收入。攻击性间谍任务成功后，您还将获得目标城市在此回合获得的 [ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币和 [ICON_Faith] 信仰值的一半。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_1_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by discovering a Natural Wonder. Reveals the Ley Line resource on the map. Ley Lines are 20% more common than in the base game, give a major adjacency bonus to all specialty districts, and can be harvested by Builders for [ICON_Gold] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>发现自然奇观后解锁。在地图上显示“地脉”资源。地脉生成密度比原版提高20%，能为所有特色区域带来大量相邻加成，并可由建造者收获以获得 [ICON_Gold] 金币。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_2_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Medieval Era. Allows you to construct the Alchemical Society building, a powerful replacement for the University. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在中世纪解锁。允许建造“大学”的强力替代品：“炼金术会所”。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="en_US">
+			<Text>Unique to the Hermetic Order, replaces the University. Provides +5 [ICON_Science] Science. This Campus district generates [ICON_Gold] Gold and [ICON_Production] Production equal to its [ICON_Science] Science adjacency bonus.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>黄金黎明协会专属，替代大学。提供+5 [ICON_Science] 科技值。此学院区域将提供等同于其 [ICON_Science] 科技值相邻加成的 [ICON_Gold] 金币和 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_3_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Renaissance Era. For every [ICON_GreatPerson] Great Person earned, Ley Lines receive +1 yield corresponding to that [ICON_GreatPerson] Great Person's district type. Instead, [ICON_GreatAdmiral] Great Admirals grant +1 [ICON_Food] Food, [ICON_GreatGeneral] Great Generals grant +1 [ICON_Production] Production, and [ICON_GreatMerchant] Great Merchants grant +2 [ICON_Gold] Gold. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在文艺复兴时代解锁。每获得一名 [ICON_GreatPerson] 伟人，地脉便获得与此伟人的区域类型相对应的+1产出；[ICON_GreatAdmiral] 海军统帅改为提供+1 [ICON_Food] 食物，[ICON_GreatGeneral] 大将军改为提供+1 [ICON_Production] 生产力，[ICON_GreatMerchant] 大商人提供+2 [ICON_Gold] 金币。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_4_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Industrial Era. Unlocks Occult Research, a city project that provides [ICON_Gold] Gold while active. When completed, it grants [ICON_GreatPerson] Great Person points and [ICON_Science] Science for every Ley Line in the city. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在工业时代解锁。解锁“秘术研究”。此城市项目在进行时将提供 [ICON_Gold] 金币。完成时，其将根据城市中的地脉数量提供 [ICON_GreatPerson] 伟人点数和 [ICON_Science] 科技值。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Medieval Era. Cities earn [ICON_Gold] Gold, [ICON_Science] Science, and [ICON_Culture] Culture per turn equal to 20% of their [ICON_Faith] Faith per turn. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在中世纪解锁。城市每回合获得等同于其每回合所获 [ICON_Faith] 信仰值20%的 [ICON_Gold] 金币、[ICON_Science] 科技值和 [ICON_Culture] 文化值。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_3_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Renaissance Era. Unlocks the Cultist unit. This unit is purchased with [ICON_Faith] Faith and uses charges to reduce Loyalty in foreign cities and generate [ICON_GreatWork_Relic] Relics of the Void. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在文艺复兴时代解锁。解锁单位“邪教徒”。此单位可用 [ICON_Faith] 信仰值购买，可消耗次数来降低外国城市的忠诚度，并生成 [ICON_GreatWork_Relic] 虚空遗物。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_4_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Industrial Era. Unlocks Dark Summoning, a city project that provides large amounts of [ICON_Faith] Faith while active and, when completed, increases the Loyalty damage done by Cultists. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在工业时代解锁。解锁“黑暗召唤”。此城市项目在进行时可提供大量 [ICON_Faith] 信仰值，完成后可提升邪教徒造成的忠诚度损失。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_2_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Medieval Era. Grants a Vampire unit in your [ICON_Capital] Capital and allows your Vampires to construct Vampire Castles, with a maximum of two per empire. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在中世纪解锁。[ICON_Capital] 首都将出现1个吸血鬼单位，允许吸血鬼建造吸血鬼城堡（帝国中最多可建造2座）。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_3_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Renaissance Era. Grants a Vampire unit in your [ICON_Capital] Capital. Increases the maximum number of Vampire Castles to three. Your Vampires Intimidate adjacent enemy units, reducing their [ICON_Strength] Combat Strength by 5. Pillaging costs Vampires 1 [ICON_Movement] Movement. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在文艺复兴时代解锁。[ICON_Capital] 首都将出现1个吸血鬼单位。将吸血鬼城堡建造上限提升至3座。您的吸血鬼能恐吓相邻的敌方单位，使其 [ICON_Strength] 战斗力-5。进行掠夺将消耗吸血鬼1点 [ICON_Movement] 移动力。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_4_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in the Industrial Era. Grants a Vampire unit in your [ICON_Capital] Capital. Increases the maximum number of Vampire Castles to four. Units within one tile of your Vampire Castles may Airlift to any other tile near one of your Vampire Castles. Selecting this title grants 1 Governor Title, refunding its cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在工业时代解锁。[ICON_Capital] 首都将出现1个吸血鬼单位。将吸血鬼城堡建造上限提升至4座。您吸血鬼城堡1单元格范围中的单位可空运至帝国其中一座吸血鬼城堡附近的任意单元格。选择此头衔后返还1个总督点。</Text>
+		</Replace>
+
 		<Row Tag="LOC_DISTRICT_ZYL_LBM_COMMERCIAL_HUB_LUXURY_GOLD" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from adjacent Luxury resources.</Text>
 		</Row>
@@ -44,13 +230,13 @@
 			<Text>Moon Goddess</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_DESCRIPTION" Language="en_US">
-			<Text>Coast and Ocean tiles provide +2 [ICON_Gold] Gold.</Text>
+			<Text>Coast and Ocean tiles in cities following this Pantheon provide +2 [ICON_Gold] Gold.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_NAME" Language="en_US">
 			<Text>Goddess of the Calm Sea</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_DESCRIPTION" Language="en_US">
-			<Text>Fishing Boats provide +1 [ICON_Culture] Culture.</Text>
+			<Text>Fishing Boats in cities following this Pantheon provide +1 [ICON_Culture] Culture.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_NAME" Language="en_US">
 			<Text>Goddess of Commerce</Text>
@@ -62,20 +248,26 @@
 			<Text>Sun God</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_DESCRIPTION" Language="en_US">
-			<Text>Wheat, Rice, and Maize provide +2 [ICON_Faith] Faith.</Text>
+			<Text>Wheat, Rice, and Maize in cities following this Pantheon provide +2 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_NAME" Language="en_US">
+			<Text>Oral Tradition</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_DESCRIPTION" Language="en_US">
+			<Text>Plantations in cities following this Pantheon provide +1 [ICON_Food] Food and +2 [ICON_Gold] Gold.</Text>
 		</Row>
 
 		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_NAME" Language="zh_Hans_CN">
 			<Text>月亮女神</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>海岸和海洋单元格+2 [ICON_Gold] 金币。</Text>
+			<Text>信奉此万神殿的城市中，海岸和海洋单元格+2 [ICON_Gold] 金币。</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_NAME" Language="zh_Hans_CN">
 			<Text>深海女神</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>渔船+1 [ICON_Culture] 文化。</Text>
+			<Text>信奉此万神殿的城市中，渔船+1 [ICON_Culture] 文化。</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_NAME" Language="zh_Hans_CN">
 			<Text>商业女神</Text>
@@ -87,7 +279,13 @@
 			<Text>太阳神</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>小麦、大米、玉米+2 [ICON_Faith] 信仰。</Text>
+			<Text>信奉此万神殿的城市中，小麦、大米、玉米+2 [ICON_Faith] 信仰。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_NAME" Language="zh_Hans_CN">
+			<Text>口述传统</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿的城市中，种植园+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币。</Text>
 		</Row>
 
 		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
@@ -126,5 +324,461 @@
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>魅力为迷人及以上的单元格+1 [ICON_Faith] 信仰。</Text>
 		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="en_US">
+			<Text>Can be assigned to a City-State, where she acts as 2 [ICON_Envoy] Envoys. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可派遣至城邦，效力等同于2名 [ICON_Envoy] 使者。3回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="en_US">
+			<Text>Religious pressure to adjacent cities is 100% stronger from this city. +2 [ICON_Faith] Faith for every specialty district in this city. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城市对相邻城市释放的宗教压力强度加倍。此城市中每有一座特色区域，则+2 [ICON_Faith] 信仰值。3回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="en_US">
+			<Text>+50% yields from plot harvests and feature removals in the city. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中格位收获和移除地貌的产出+50%。3回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION" Language="en_US">
+			<Text>All Builders trained in this city get +1 build charge. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城市中生产的所有建造者将+1建造次数。3回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="en_US">
+			<Text>15% increase in [ICON_Science] Science and [ICON_Culture] Culture generated by the city. Establishes in 5 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每回合产出的 [ICON_Science] 科技值和 [ICON_Culture] 文化值+15%。5回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Production] Production toward all military units in the city. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市建造任意军事单位时+20% [ICON_Production] 生产力。3回合即可就职。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Food] Growth in the city. Your [ICON_TradeRoute] Trade Routes ending here provide +2 [ICON_Food] Food and +1 [ICON_Production] Production to their starting city. Settlers trained in the city do not consume a [ICON_Citizen] Population.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市的 [ICON_Food] 增长+20%。以此处为终点的 [ICON_TradeRoute] 贸易路线为起源城市+2 [ICON_Food] 食物、+1 [ICON_Production] 生产力。城市中生产的开拓者不消耗 [ICON_Citizen] 人口。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Production] Production toward units, districts, and non-Wonder buildings in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城建造单位、区域和非奇观建筑时+20% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Production] Production from the Workshop and +4 [ICON_Production] Production from the Factory in this city. The city's Coal, Oil, and Nuclear Power Plants provide +7 [ICON_Production] Production and +4 [ICON_POWER] Power per resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城的工作坊+2 [ICON_Production] 生产力，工厂+4 [ICON_Production] 生产力。此城的燃煤发电厂、燃油发电厂和核电站+7 [ICON_Production] 生产力，且每项资源提供的 [ICON_POWER] 电力+4。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="en_US">
+			<Text>Increases the city's garrison [ICON_Strength] Combat Strength by 5. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市驻军 [ICON_Strength] 战斗力+5。3回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="en_US">
+			<Text>Units defending within the city's territory get +3 [ICON_Strength] Combat Strength. Your other cities within 9 tiles gain +4 Loyalty per turn toward your civilization.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市领土内的单位防御时+3 [ICON_Strength] 战斗力。您在9个单元格内的其他城市每回合获得对您文明的4点忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="en_US">
+			<Text>+25% [ICON_Production] Production toward military units in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在此城中生产军事单位时+25% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="en_US">
+			<Text>The city gains an additional [ICON_Ranged] Ranged Strike per turn and cannot be put under siege.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每回合可额外进行1次 [ICON_Ranged] 远程攻击，且不会被围攻。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="en_US">
+			<Text>Military units trained in this city start with a free [ICON_Promotion] Promotion if they do not already start with one. Units trained in this city do not consume Strategic resources. +30% [ICON_Production] Production toward nuclear weapon projects.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在此城中训练的军事单位若原本不具备免费晋升，则获得1次免费 [ICON_Promotion] 晋升。在此城中训练的单位不消耗战略资源。核武器项目+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="en_US">
+			<Text>+25 [ICON_AntiAir_Large] Combat Strength to anti-air support units within the city's territory when defending against aircraft and ICBMs.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市领土内的防空支援单位防御飞机和洲际弹道导弹时+25 [ICON_AntiAir_Large] 战斗力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION" Language="en_US">
+			<Text>Floodplains and Volcanic Soil tiles in the city provide +1 [ICON_Production] Production. Improvements, buildings, and districts in this city cannot be damaged by Environmental Effects.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中的泛滥平原和火山土单元格+1 [ICON_Production] 生产力。此城的改良设施、建筑和区域不会受到环境效应的损坏。</Text>
+		</Replace>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_AGRICULTURE_NAME" Language="en_US">
+			<Text>Agriculture</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_AGRICULTURE_NAME" Language="zh_Hans_CN">
+			<Text>农业</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_AGRICULTURE_DESCRIPTION" Language="en_US">
+			<Text>Every revealed resource in the city provides +1 [ICON_Food] Food.</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_AGRICULTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每个已发现资源+1 [ICON_Food] 食物。</Text>
+		</Row>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="en_US">
+			<Text>The City Park unique improvement can be built in the city after Games and Recreation is unlocked. Provides +3 [ICON_Science] Science, +2 [ICON_Culture] Culture, +2 [ICON_Housing] Housing, +1 [ICON_Amenities] Amenity, and +2 Appeal to adjacent tiles. One per city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁“游戏与娱乐”市政后，可在城市中建造特色改良设施“城市公园”。提供+3 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值、+2 [ICON_Housing] 住房、+1 [ICON_Amenities] 宜居度，并使相邻单元格+2魅力。每座城市限建1个。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="en_US">
+			<Text>Every revealed resource in the city provides +1 [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每个已发现资源+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME" Language="en_US">
+			<Text>Housing Boom</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME" Language="zh_Hans_CN">
+			<Text>住房热潮</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity for every [ICON_District] District and wonder in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每个 [ICON_District] 区域和奇观+1 [ICON_Housing] 住房、+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="en_US">
+			<Text>A Governor-exclusive improvement that can be built in a city with a Surveyor Governor who has Parks and Recreation. Provides +3 [ICON_Science] Science, +2 [ICON_Culture] Culture, +2 [ICON_Housing] Housing, +1 [ICON_Amenities] Amenity, and +2 Appeal to adjacent tiles. One per city and only buildable on flat land.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>总督特色改良设施，可建在拥有“公园与休闲”晋升的测量师总督所在城市。提供+3 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值、+2 [ICON_Housing] 住房、+1 [ICON_Amenities] 宜居度，并使相邻单元格+2魅力。每座城市限建1个，且只能建在平地。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Fishery after researching Celestial Navigation. Provides +1 [ICON_Food] Food, +1 additional [ICON_Food] Food for each adjacent sea resource, and +1 [ICON_Housing] Housing. Provides +1 [ICON_Production] Production if the city has a Shipyard. Must be built on a Coast tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>研究“天文导航”科技后，解锁建造者修建“渔场”的能力。+1 [ICON_Food] 食物，每相邻1个海洋资源额外+1 [ICON_Food] 食物，并提供+1 [ICON_Housing] 住房。城市拥有造船厂时+1 [ICON_Production] 生产力。必须建在海岸单元格。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="en_US">
+			<Text>Acquires new tiles in the city faster. +4 [ICON_Gold] Gold per turn for each foreign [ICON_TradeRoute] Trade Route passing through the city. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市获得新单元格的速度加快。每条经过此城的外国 [ICON_TradeRoute] 贸易路线每回合+4 [ICON_Gold] 金币。3回合即可就职。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="en_US">
+			<Text>Doubles adjacency bonuses from Commercial Hubs and Harbors in the city. +1 [ICON_TradeRoute] Trade Route capacity if the city has both a Market and a Lighthouse.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城商业中心和港口的相邻加成翻倍。如果城市同时拥有市场和灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold on tiles with unimproved features and on Breathtaking tiles. Unimproved features in this city provide +1 Appeal to adjacent tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>带有未改良地貌的单元格和魅力为“惊艳”的单元格+2 [ICON_Gold] 金币。此城未改良地貌使相邻单元格+1魅力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold per turn for each [ICON_Citizen] Citizen in the city, and +1 [ICON_TradeRoute] Trade Route capacity while this Governor is established in any city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城每位 [ICON_Citizen] 公民每回合+2 [ICON_Gold] 金币。此总督在任意城市完成就职后，+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION" Language="en_US">
+			<Text>Allows the city to purchase Districts with [ICON_Gold] Gold. 50% [ICON_Gold] Gold discount when purchasing buildings and Support units in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许此城使用 [ICON_Gold] 金币购买区域。在此城使用 [ICON_Gold] 金币购买建筑和支援单位时价格降低50%。</Text>
+		</Replace>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_NAME" Language="en_US">
+			<Text>Foreign Exchange</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_NAME" Language="zh_Hans_CN">
+			<Text>外汇交易</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_DESCRIPTION" Language="en_US">
+			<Text>Each foreign [ICON_TradeRoute] Trade Route passing through the city provides +1 [ICON_Science] Science and +1 [ICON_Culture] Culture. Increases to +2 [ICON_Science] Science and +2 [ICON_Culture] Culture after researching Economics.</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每条经过此城的外国 [ICON_TradeRoute] 贸易路线提供+1 [ICON_Science] 科技值和+1 [ICON_Culture] 文化值。研究“经济学”科技后提高到+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
+		</Row>
+
+		<Row Tag="LOC_ZYL_LBM_NAME" Language="zh_Hant_HK">
+			<Text>ZYL的輕量化平衡模組</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>用於朋友連線的文明6輕量化平衡調整。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_TEASER" Language="zh_Hant_HK">
+			<Text>輕量化連線平衡調整。</Text>
+		</Row>
+
+		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖建造者建造礦井的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生產力。-1魅力。可在丘陵、有效資源或地熱裂縫上建造。[NEWLINE][NEWLINE]如果建在奢侈品資源或戰略資源上，城市將能使用該資源。</Text>
+		</Replace>
+
+		<Row Tag="LOC_BUILDING_ZYL_LBM_WALLS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為市中心和軍營區提供城牆，增加50點外部防禦生命值和3點外部防禦力。城牆使市中心和軍營區能夠發動[ICON_Ranged]遠程攻擊；通常必須先摧毀外部防禦，才能攻擊城市生命值。解鎖「自然保育」市政後提供1點[ICON_Tourism]旅遊業績。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_CASTLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為市中心和軍營區增加50點外部防禦生命值和3點外部防禦力。解鎖「自然保育」市政後提供2點[ICON_Tourism]旅遊業績。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_STAR_FORT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為市中心和軍營區增加50點外部防禦生命值和3點外部防禦力。解鎖「自然保育」市政後提供3點[ICON_Tourism]旅遊業績。</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為所有城市解鎖都市防禦，將其外部防禦生命值設為200，並允許城市發動[ICON_Ranged]遠程攻擊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZYL_LBM_TSIKHE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>格魯吉亞特色建築，替代文藝復興城牆。建造該建築時+50% [ICON_Production]生產力。為市中心和軍營區增加100點外部防禦生命值和3點外部防禦力，並提供+4 [ICON_Faith]信仰值。黃金時代期間額外+4 [ICON_Faith]信仰值；解鎖「自然保育」市政後，黃金時代期間還提供3點[ICON_Tourism]旅遊業績。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZYL_LBM_MILITARY_ENGINEER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>中世紀支援單位，需要兵工廠才能生產。可建造普通道路且不消耗建造次數，但每格道路消耗1點[ICON_RESOURCE_IRON]鐵。還可建造鐵路、堡壘、飛機跑道、導彈發射井和山脈隧道。可消耗1次建造次數，完成水渠、浴場、運河或堤壩區域，或防洪堤20%的生產進度。鐵路保持原版規則：每格消耗1點[ICON_RESOURCE_IRON]鐵和1點[ICON_RESOURCE_COAL]煤，且不消耗建造次數。</Text>
+		</Row>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在淡水及海岸旁開拓城市無法提供額外 [ICON_Housing] 住房，但每座農場額外提供+1 [ICON_Housing] 住房，每與一座天文臺相鄰+1 [ICON_Production] 生產力，並+1 [ICON_Gold] 金幣。宮殿額外+2 [ICON_Housing] 住房。建造者無需解鎖「土木工程」市政即可在草原丘陵和平原丘陵上建造農場。市中心每與一處奢侈品資源相鄰，則+1 [ICON_Amenities] 滿意度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>距離 [ICON_Capital] 首都8單元格範圍內之非首都都市的所有收益+10%，並且在城市建立之初獲得1個建造者。其他非首都都市之所有收益-15%。在距離 [ICON_Capital] 首都8單元格範圍內戰鬥時+5 [ICON_Strength] 戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>距離 [ICON_Capital] 首都8個單元格範圍內的所有單位+5 [ICON_Strength] 戰鬥力（繩結女王）。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>「琴棋書畫」黃金時代：[NEWLINE][ICON_CivicBoosted] 天啟提供額外10%的市政花費。城市從每個特色區域處獲得的 [ICON_Culture] 文化值+2。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_2" Language="zh_Hant_HK">
+			<Text>[ICON_SECRETSOCIETY_OWLS] {LOC_SECRETSOCIETY_OWLS_OF_MINERVA_DESCRIPTION} 向目前尚未派駐 [ICON_Envoy] 使者的城邦派遣 [ICON_Envoy] 使者，可嘗試與其取得聯繫。本模組中，透過此來源與該結社取得聯繫基本必定成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_3" Language="zh_Hant_HK">
+			<Text>[ICON_SECRETSOCIETY_HERMETIC] {LOC_SECRETSOCIETY_HERMETIC_ORDER_DESCRIPTION} 發現自然奇觀時，可嘗試與其取得聯繫。本模組中，透過此來源與該結社取得聯繫基本必定成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_4" Language="zh_Hant_HK">
+			<Text>[ICON_SECRETSOCIETY_VOIDSINGERS] {LOC_SECRETSOCIETY_VOIDSINGERS_DESCRIPTION} 調查部落村莊時，可嘗試與其取得聯繫。本模組中，透過此來源與該結社取得聯繫基本必定成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SECRETSOCIETIES_CHAPTER_DISCOVERY_PARA_5" Language="zh_Hant_HK">
+			<Text>[ICON_SECRETSOCIETY_SANGUINE] {LOC_SECRETSOCIETY_SANGUINE_PACT_DESCRIPTION} 清除蠻族營地時，可嘗試與其取得聯繫。本模組中，透過此來源與該結社取得聯繫基本必定成功。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在中世紀解鎖。允許建造強大的建築「金箔寶庫」，其取代了「銀行」。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在文藝復興時代解鎖。+1通配符政策槽位。+2間諜容量。你的間諜在你的城市中時，城市每回合+4忠誠度、+1 [ICON_Amenities] 滿意度。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在工業時代解鎖。你每回合將獲得國庫 [ICON_Gold] 金幣的3%作為收入。攻擊性間諜任務成功後，你還將獲得目標城市在該回合中所獲 [ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金幣及 [ICON_Faith] 信仰值的半數。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>發現自然奇觀後解鎖。在地圖上顯示「地脈」資源。地脈生成密度比原版提高20%，能為所有特色區域帶來大量相鄰加成，並可由建造者收穫以獲得 [ICON_Gold] 金幣。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在中世紀解鎖。允許建造強大的建築「鍊金術會所」，其取代了「大學」。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>黃金黎明協會特色建築，取代大學。提供+5 [ICON_Science] 科技值。此學院區域將生成等同於其 [ICON_Science] 科技值相鄰加成的 [ICON_Gold] 金幣和 [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在文藝復興時代解鎖。每獲得一位 [ICON_GreatPerson] 偉人，地脈便獲得與此偉人的區域類型相對應的+1產出；[ICON_GreatAdmiral] 海軍統帥改為提供+1 [ICON_Food] 食物，[ICON_GreatGeneral] 大將軍改為提供+1 [ICON_Production] 生產力，[ICON_GreatMerchant] 大商人提供+2 [ICON_Gold] 金幣。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>於工業時代解鎖。解鎖「秘術研究」。此城市項目在啟用時提供 [ICON_Gold] 金幣。完成時將依據該城市中的地脈數量獲得 [ICON_GreatPerson] 偉人點數與 [ICON_Science] 科技值。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在中世紀解鎖。城市每回合獲得等同於其每回合所獲得之 [ICON_Faith] 信仰值20%的 [ICON_Gold] 金幣、[ICON_Science] 科技值及 [ICON_Culture] 文化值。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>於文藝復興時代解鎖。解鎖邪教徒單位。此單位可透過 [ICON_Faith] 信仰值購買，並消耗次數來減少外國城市的忠誠度，還能產生 [ICON_GreatWork_Relic] 虛空遺物。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>於工業時代解鎖。解鎖「暗黑召喚」。此城市項目在啟用時提供大量 [ICON_Faith] 信仰值，完成時提升邪教徒造成的忠誠度損害量。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>於中世紀解鎖。賦予 [ICON_Capital] 首都1個吸血鬼單位，允許吸血鬼建造吸血鬼城堡（至多可建2座）。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>於文藝復興時代解鎖。賦予 [ICON_Capital] 首都1個吸血鬼單位。將吸血鬼城堡的最大建造數量增加至3座。你的吸血鬼能夠恫嚇相鄰的敵方單位，使其 [ICON_Strength] 戰鬥力-5。掠奪需花費吸血鬼1點 [ICON_Movement] 移動力。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在工業時代解鎖。賦予 [ICON_Capital] 首都1個吸血鬼單位。將吸血鬼城堡的最大建造數量提升至4座。位於吸血鬼城堡1單元格範圍中的單位能夠空運至其中一座吸血鬼城堡附近的任意其他單元格。選擇此頭銜後返還1個總督點。</Text>
+		</Replace>
+
+		<Row Tag="LOC_DISTRICT_ZYL_LBM_COMMERCIAL_HUB_LUXURY_GOLD" Language="zh_Hant_HK">
+			<Text>相鄰奢侈資源+{1_num} [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_ZYL_LBM_BANK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+10 [ICON_Gold] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZYL_LBM_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>本城每位 [ICON_Citizen] 公民+1 [ICON_Gold] 金幣。</Text>
+		</Replace>
+
+		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_NAME" Language="zh_Hant_HK">
+			<Text>月亮女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，海岸和海洋單元格+2 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_NAME" Language="zh_Hant_HK">
+			<Text>深海女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_CALM_SEA_GODDESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，漁船+1 [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_NAME" Language="zh_Hant_HK">
+			<Text>商業女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_COMMERCE_GODDESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1 [ICON_TradeRoute] 貿易路線容量。所有貿易路線+1 [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_NAME" Language="zh_Hant_HK">
+			<Text>太陽神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SUN_GOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，小麥、稻米、玉米+2 [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_NAME" Language="zh_Hant_HK">
+			<Text>口述傳統</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，種植園+1 [ICON_Food] 食物、+2 [ICON_Gold] 金幣。</Text>
+		</Row>
+
+		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>無特色區域的城市建造區域時+40% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>採石場+1 [ICON_Culture] 文化值、+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>奢侈資源和加成資源上的礦山+3 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建造所有時代的奇觀時+15% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>火山土和地熱裂縫+4 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>魅力達迷人或以上的單元格+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可以指派至城邦，等同於2名 [ICON_Envoy] 使者。3回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市對相鄰城市施加的宗教壓力加倍。此城市中每有一個特色區域，則+2 [ICON_Faith] 信仰值。3回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在城市中進行資源收穫和地貌移除時獲得的收益+50%。3回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市中生產的所有建造者皆+1建造次數。3回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市所產出的 [ICON_Science] 科技值和 [ICON_Culture] 文化值增加15%。5回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造所有軍事單位+20% [ICON_Production] 生產力。3回合即可就職。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+20% [ICON_Food] 食物發展。以此城市為目的地的 [ICON_TradeRoute] 貿易路線可為起始城市提供+2 [ICON_Food] 食物、+1 [ICON_Production] 生產力。在此城市中生產的開拓者不會消耗 [ICON_Citizen] 人口。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市建造單位、區域及非奇觀建築時+20% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市的工作坊+2 [ICON_Production] 生產力，工廠+4 [ICON_Production] 生產力。此城市的燃煤發電廠、燃油發電廠及核能發電廠+7 [ICON_Production] 生產力，且每單位資源提供的 [ICON_POWER] 電力+4。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市駐軍 [ICON_Strength] 戰鬥力+5。3回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市領土內的單位防禦時+3 [ICON_Strength] 戰鬥力。你在9個單元格內的其他城市每回合獲得對你文明的4點忠誠度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在此城中生產軍事單位時+25% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市每回合可額外進行1次 [ICON_Ranged] 遠程攻擊，且不會被圍攻。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在此城中訓練的軍事單位若原本不具備免費晉升，則獲得1次免費 [ICON_Promotion] 晉升。在此城中訓練的單位不消耗戰略資源。核武器項目+30% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市領土內的防空支援單位防禦飛機和洲際彈道導彈時+25 [ICON_AntiAir_Large] 戰鬥力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市中的氾濫平原和火山土單元格+1 [ICON_Production] 生產力。此城的改良設施、建築和區域不會受到環境效應的損壞。</Text>
+		</Replace>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_AGRICULTURE_NAME" Language="zh_Hant_HK">
+			<Text>農業</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_AGRICULTURE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市中每個已發現資源+1 [ICON_Food] 食物。</Text>
+		</Row>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖「遊戲與娛樂」市政後，可在城市中建造特色改良設施「城市公園」。提供+3 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值、+2 [ICON_Housing] 住房、+1 [ICON_Amenities] 滿意度，並使相鄰單元格+2魅力。每座城市限建1個。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市中每個已發現資源+1 [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME" Language="zh_Hant_HK">
+			<Text>住房熱潮</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市中每個 [ICON_District] 區域和奇觀+1 [ICON_Housing] 住房、+1 [ICON_Amenities] 滿意度。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>總督特色改良設施，可建在擁有「公園與休閒」晉升的測量師總督所在城市。提供+3 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值、+2 [ICON_Housing] 住房、+1 [ICON_Amenities] 滿意度，並使相鄰單元格+2魅力。每座城市限建1個，且只能建在平地。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>研究「天文導航」科技後，解鎖建造者修建「漁場」的能力。+1 [ICON_Food] 食物，每相鄰1個海洋資源額外+1 [ICON_Food] 食物，並提供+1 [ICON_Housing] 住房。城市擁有造船廠時+1 [ICON_Production] 生產力。必須建在海岸單元格。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市獲得新單元格的速度加快。每條經過此城的外國 [ICON_TradeRoute] 貿易路線每回合+4 [ICON_Gold] 金幣。3回合即可就職。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城商業中心和港口的相鄰加成翻倍。如果城市同時擁有市場和燈塔，則+1 [ICON_TradeRoute] 貿易路線容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>帶有未改良地貌的單元格和魅力為「驚艷」的單元格+2 [ICON_Gold] 金幣。此城未改良地貌使相鄰單元格+1魅力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城每位 [ICON_Citizen] 公民每回合+2 [ICON_Gold] 金幣。此總督在任意城市完成就職後，+1 [ICON_TradeRoute] 貿易路線容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>允許此城使用 [ICON_Gold] 金幣購買區域。在此城使用 [ICON_Gold] 金幣購買建築和支援單位時價格降低50%。</Text>
+		</Replace>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_NAME" Language="zh_Hant_HK">
+			<Text>外匯交易</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每條經過此城的外國 [ICON_TradeRoute] 貿易路線提供+1 [ICON_Science] 科技值和+1 [ICON_Culture] 文化值。研究「經濟學」科技後提高到+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

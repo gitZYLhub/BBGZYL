@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.4">
+<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.6.3">
 	<Properties>
-		<Name>ZYL的轻量化平衡模组</Name>
-		<Description>ZYL's Lightweight Balance Mod. Lightweight Civilization VI balance changes for friendly multiplayer games.</Description>
-		<Teaser>ZYL's Lightweight Balance Mod</Teaser>
+		<Name>LOC_ZYL_LBM_NAME</Name>
+		<Description>LOC_ZYL_LBM_DESCRIPTION</Description>
+		<Teaser>LOC_ZYL_LBM_TEASER</Teaser>
 		<Authors>ZYL and friends</Authors>
-		<Version>0.4</Version>
+		<Version>0.6.3</Version>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 
@@ -18,12 +18,34 @@
 			<GameCoreInUse>Expansion2</GameCoreInUse>
 			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
 		</Criteria>
+		<Criteria id="SecretSocietiesXP1">
+			<RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="SecretSocietiesXP2">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="TeamPVPTools">
+			<ModInUse>00000000-0165-224C-A3AA-154BB4B9C1C5</ModInUse>
+		</Criteria>
+		<Criteria id="MayaDLC">
+			<ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+		</Criteria>
 	</ActionCriteria>
 
 	<FrontEndActions>
 		<UpdateText id="ZYL_LBM_FrontEndText">
 			<Properties>
-				<LoadOrder>50000</LoadOrder>
+				<LoadOrder>4000000</LoadOrder>
 			</Properties>
 			<File>lang/english.xml</File>
 		</UpdateText>
@@ -32,7 +54,7 @@
 	<InGameActions>
 		<UpdateText id="ZYL_LBM_InGameText">
 			<Properties>
-				<LoadOrder>50000</LoadOrder>
+				<LoadOrder>4000000</LoadOrder>
 			</Properties>
 			<File>lang/english.xml</File>
 		</UpdateText>
@@ -51,33 +73,69 @@
 			<File>sql/Base/Buffs.sql</File>
 		</UpdateDatabase>
 
-		<UpdateDatabase id="ZYL_LBM_XP1Buffs">
+		<UpdateDatabase id="ZYL_LBM_BasePantheons">
+			<Properties>
+				<LoadOrder>50015</LoadOrder>
+			</Properties>
+			<File>sql/Base/Pantheons.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_XP1Buffs" criteria="XP1">
 			<Properties>
 				<LoadOrder>50020</LoadOrder>
 			</Properties>
-			<Criteria>XP1</Criteria>
 			<File>sql/XP1/Buffs_XP1.sql</File>
 		</UpdateDatabase>
 
-		<UpdateDatabase id="ZYL_LBM_XP2Buffs">
+		<UpdateDatabase id="ZYL_LBM_XP2Buffs" criteria="XP2">
 			<Properties>
 				<LoadOrder>50030</LoadOrder>
 			</Properties>
-			<Criteria>XP2</Criteria>
 			<File>sql/XP2/Buffs_XP2.sql</File>
 		</UpdateDatabase>
 
-		<UpdateDatabase id="ZYL_LBM_XP2SecretSocieties">
+		<UpdateDatabase id="ZYL_LBM_Maya" criteria="MayaDLC">
+			<Properties>
+				<LoadOrder>50035</LoadOrder>
+			</Properties>
+			<File>sql/DLC/Maya.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_XP1SecretSocieties" criteria="SecretSocietiesXP1">
 			<Properties>
 				<LoadOrder>50040</LoadOrder>
 			</Properties>
-			<Criteria>XP2</Criteria>
+			<File>sql/XP2/SecretSocieties.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_XP2SecretSocieties" criteria="SecretSocietiesXP2">
+			<Properties>
+				<LoadOrder>50040</LoadOrder>
+			</Properties>
 			<File>sql/XP2/SecretSocieties.sql</File>
 		</UpdateDatabase>
 
 		<UpdateIcons id="ZYL_LBM_Icons">
+			<Properties>
+				<LoadOrder>50050</LoadOrder>
+			</Properties>
 			<File>data/icons.xml</File>
 		</UpdateIcons>
+
+		<ReplaceUIScript id="ZYL_LBM_TeamPVPToolsPantheonChooser" criteria="TeamPVPTools">
+			<Properties>
+				<LoadOrder>50080</LoadOrder>
+				<LuaContext>PantheonChooser</LuaContext>
+				<LuaReplace>ui/TeamPVPTools_PantheonChooser.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+
+		<ImportFiles id="ZYL_LBM_TeamPVPToolsPantheonChooserFiles" criteria="TeamPVPTools">
+			<Properties>
+				<LoadOrder>50080</LoadOrder>
+			</Properties>
+			<File>ui/TeamPVPTools_PantheonChooser.lua</File>
+		</ImportFiles>
 	</InGameActions>
 
 	<Files>
@@ -85,8 +143,11 @@
 		<File>lang/english.xml</File>
 		<File>sql/Core.sql</File>
 		<File>sql/Base/Buffs.sql</File>
+		<File>sql/Base/Pantheons.sql</File>
+		<File>sql/DLC/Maya.sql</File>
 		<File>sql/XP1/Buffs_XP1.sql</File>
 		<File>sql/XP2/Buffs_XP2.sql</File>
 		<File>sql/XP2/SecretSocieties.sql</File>
+		<File>ui/TeamPVPTools_PantheonChooser.lua</File>
 	</Files>
 </Mod>
