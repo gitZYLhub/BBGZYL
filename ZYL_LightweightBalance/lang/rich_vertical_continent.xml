@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ZYL_RVC_MAP_NAME" Language="en_US"><Text>Rich Vertical Continent (Repaired)</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_DESCRIPTION" Language="en_US"><Text>A resource-rich vertical continent with broad eastern and western seas. Defaults to east-west team spawns. Integrated from Team PVP Rich Vertical Continent with repaired map sizes, generation, and localization.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_2_NAME" Language="en_US"><Text>2 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_2_DESCRIPTION" Language="en_US"><Text>Recommended for 2 major civilizations. Base dimensions: 58 x 36.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_4_NAME" Language="en_US"><Text>4 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_4_DESCRIPTION" Language="en_US"><Text>Recommended for 4 major civilizations. Base dimensions: 60 x 48.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_6_NAME" Language="en_US"><Text>6 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_6_DESCRIPTION" Language="en_US"><Text>Recommended for 6 major civilizations. Base dimensions: 60 x 62.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_8_NAME" Language="en_US"><Text>8 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_8_DESCRIPTION" Language="en_US"><Text>Recommended for 8 major civilizations. Base dimensions: 66 x 76.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_10_NAME" Language="en_US"><Text>10 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_10_DESCRIPTION" Language="en_US"><Text>Recommended for 10 major civilizations. Base dimensions: 70 x 88.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_12_NAME" Language="en_US"><Text>12 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_12_DESCRIPTION" Language="en_US"><Text>Recommended for 12 major civilizations. Base dimensions: 72 x 94.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_14_NAME" Language="en_US"><Text>14 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_14_DESCRIPTION" Language="en_US"><Text>Recommended for 14 major civilizations. Base dimensions: 72 x 100.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_16_NAME" Language="en_US"><Text>16 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_16_DESCRIPTION" Language="en_US"><Text>Recommended for 16 major civilizations. Base dimensions: 72 x 106.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_18_NAME" Language="en_US"><Text>18 Players</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_18_DESCRIPTION" Language="en_US"><Text>Recommended for 18 major civilizations. Base dimensions: 72 x 112.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_WIDTH_NAME" Language="en_US"><Text>Map Width Adjustment</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_WIDTH_DESCRIPTION" Language="en_US"><Text>Adjusts the map width by 2 columns per step, from -8 to +8 columns.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_LEVEL_NAME" Language="en_US"><Text>Starting Routes</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_LEVEL_DESCRIPTION" Language="en_US"><Text>Selects the route type placed during map generation.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_NONE" Language="en_US"><Text>No Starting Routes</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_ANCIENT" Language="en_US"><Text>Ancient Roads</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_CLASSICAL" Language="en_US"><Text>Classical Roads</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_INDUSTRIAL" Language="en_US"><Text>Industrial Roads</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_MODERN" Language="en_US"><Text>Modern Roads</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_RAILROAD" Language="en_US"><Text>Railroads</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_RICHNESS_NAME" Language="en_US"><Text>Richness</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_RICHNESS_DESCRIPTION" Language="en_US"><Text>Controls terrain features, resources, continents, natural wonders, tribal villages, and starting-position compensation. Range: 1-10.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_COMPETITION_NAME" Language="en_US"><Text>Competition Mode</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_COMPETITION_DESCRIPTION" Language="en_US"><Text>Fixes Richness at 3 and distributes Ley Lines with at least 6 tiles of spacing.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_NAME" Language="en_US"><Text>Strategic Resources</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_DESCRIPTION" Language="en_US"><Text>Adjusts strategic-resource abundance for this map.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_STANDARD" Language="en_US"><Text>Standard</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_STANDARD_DESCRIPTION" Language="en_US"><Text>Uses the map's standard strategic-resource distribution.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MORE" Language="en_US"><Text>More</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MORE_DESCRIPTION" Language="en_US"><Text>Places more strategic resources.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MUCH_MORE" Language="en_US"><Text>Much More</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MUCH_MORE_DESCRIPTION" Language="en_US"><Text>Places substantially more strategic resources.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_SPAWN_NAME" Language="en_US"><Text>Team Spawn Layout</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_SPAWN_DESCRIPTION" Language="en_US"><Text>Controls the directional layout used for team starting positions.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_RANDOM" Language="en_US"><Text>Random</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_RANDOM_DESCRIPTION" Language="en_US"><Text>Uses standard continent stamping and unrestricted spawn directions.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_EW" Language="en_US"><Text>East-West</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_EW_DESCRIPTION" Language="en_US"><Text>Places opposing teams toward the eastern and western sides.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_NS" Language="en_US"><Text>North-South</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_NS_DESCRIPTION" Language="en_US"><Text>Places opposing teams toward the northern and southern sides.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_NAME" Language="en_US"><Text>City-State Placement Rules</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_DESCRIPTION" Language="en_US"><Text>Selects the spacing and fallback rules used to place city-states. Major-civilization placement is unchanged.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_SINGLE" Language="en_US"><Text>Single Player</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_SINGLE_DESCRIPTION" Language="en_US"><Text>Uses the standard Firaxis city-state spacing and fallback behavior.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_MULTI" Language="en_US"><Text>Multiplayer</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_MULTI_DESCRIPTION" Language="en_US"><Text>Preserves the map's stricter Team PVP city-state spacing and removal rules.</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_SPAWN_RECALCULATION_NAME" Language="en_US"><Text>Balanced Spawn Recalculation</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_SPAWN_RECALCULATION_DESCRIPTION" Language="en_US"><Text>Uses the integrated BBS-derived starting-position allocator and retries unsuitable layouts.</Text></Row>
+
+		<Row Tag="LOC_ZYL_RVC_MAP_NAME" Language="zh_Hans_CN"><Text>富饶竖向大陆（修复版）</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_DESCRIPTION" Language="zh_Hans_CN"><Text>竖向长条富饶大陆，东西两侧海域较宽，默认采用东西分队出生。基于 Team PVP 富饶竖向大陆并入，并修复地图尺寸、生成逻辑与本地化问题。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_2_NAME" Language="zh_Hans_CN"><Text>2人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_2_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐2个主要文明。基础尺寸：58 x 36。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_4_NAME" Language="zh_Hans_CN"><Text>4人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_4_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐4个主要文明。基础尺寸：60 x 48。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_6_NAME" Language="zh_Hans_CN"><Text>6人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_6_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐6个主要文明。基础尺寸：60 x 62。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_8_NAME" Language="zh_Hans_CN"><Text>8人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_8_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐8个主要文明。基础尺寸：66 x 76。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_10_NAME" Language="zh_Hans_CN"><Text>10人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_10_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐10个主要文明。基础尺寸：70 x 88。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_12_NAME" Language="zh_Hans_CN"><Text>12人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_12_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐12个主要文明。基础尺寸：72 x 94。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_14_NAME" Language="zh_Hans_CN"><Text>14人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_14_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐14个主要文明。基础尺寸：72 x 100。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_16_NAME" Language="zh_Hans_CN"><Text>16人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_16_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐16个主要文明。基础尺寸：72 x 106。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_18_NAME" Language="zh_Hans_CN"><Text>18人地图</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_18_DESCRIPTION" Language="zh_Hans_CN"><Text>推荐18个主要文明。基础尺寸：72 x 112。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_WIDTH_NAME" Language="zh_Hans_CN"><Text>地图宽度调整</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_WIDTH_DESCRIPTION" Language="zh_Hans_CN"><Text>每档调整2列，最多减少8列或增加8列。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_LEVEL_NAME" Language="zh_Hans_CN"><Text>初始道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_LEVEL_DESCRIPTION" Language="zh_Hans_CN"><Text>选择地图生成时预先铺设的道路类型。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_NONE" Language="zh_Hans_CN"><Text>无初始道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_ANCIENT" Language="zh_Hans_CN"><Text>远古道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_CLASSICAL" Language="zh_Hans_CN"><Text>古典时代道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_INDUSTRIAL" Language="zh_Hans_CN"><Text>工业道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_MODERN" Language="zh_Hans_CN"><Text>现代道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_RAILROAD" Language="zh_Hans_CN"><Text>铁路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_RICHNESS_NAME" Language="zh_Hans_CN"><Text>富饶度</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_RICHNESS_DESCRIPTION" Language="zh_Hans_CN"><Text>综合影响地貌、资源、大陆、自然奇观、部落村庄和出生点补偿。范围为1至10。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_COMPETITION_NAME" Language="zh_Hans_CN"><Text>竞赛模式</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_COMPETITION_DESCRIPTION" Language="zh_Hans_CN"><Text>将富饶度固定为3，并以至少6格间距分布地脉。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_NAME" Language="zh_Hans_CN"><Text>战略资源</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_DESCRIPTION" Language="zh_Hans_CN"><Text>调整本地图的战略资源丰度。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_STANDARD" Language="zh_Hans_CN"><Text>标准</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_STANDARD_DESCRIPTION" Language="zh_Hans_CN"><Text>使用本地图的标准战略资源分布。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MORE" Language="zh_Hans_CN"><Text>更多</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MORE_DESCRIPTION" Language="zh_Hans_CN"><Text>生成更多战略资源。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MUCH_MORE" Language="zh_Hans_CN"><Text>极多</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MUCH_MORE_DESCRIPTION" Language="zh_Hans_CN"><Text>显著增加战略资源数量。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_SPAWN_NAME" Language="zh_Hans_CN"><Text>分队出生方向</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_SPAWN_DESCRIPTION" Language="zh_Hans_CN"><Text>控制团队出生点采用的方向布局。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_RANDOM" Language="zh_Hans_CN"><Text>随机</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_RANDOM_DESCRIPTION" Language="zh_Hans_CN"><Text>使用标准大陆划分，不限制出生方向。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_EW" Language="zh_Hans_CN"><Text>东西</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_EW_DESCRIPTION" Language="zh_Hans_CN"><Text>对立团队分别偏向地图东侧和西侧出生。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_NS" Language="zh_Hans_CN"><Text>南北</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_NS_DESCRIPTION" Language="zh_Hans_CN"><Text>对立团队分别偏向地图北侧和南侧出生。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_NAME" Language="zh_Hans_CN"><Text>城邦放置规则</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_DESCRIPTION" Language="zh_Hans_CN"><Text>选择城邦使用的出生间距和后备地块规则，不改变主要文明的放置方式。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_SINGLE" Language="zh_Hans_CN"><Text>单机</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_SINGLE_DESCRIPTION" Language="zh_Hans_CN"><Text>使用 Firaxis 原版城邦出生间距和后备地块规则。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_MULTI" Language="zh_Hans_CN"><Text>联机</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_MULTI_DESCRIPTION" Language="zh_Hans_CN"><Text>保留本地图原有的 Team PVP 严格城邦间距和淘汰规则。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_SPAWN_RECALCULATION_NAME" Language="zh_Hans_CN"><Text>平衡出生点重算</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_SPAWN_RECALCULATION_DESCRIPTION" Language="zh_Hans_CN"><Text>使用并入的 BBS 衍生出生点分配器，并对不合格布局进行重试。</Text></Row>
+
+		<Row Tag="LOC_ZYL_RVC_MAP_NAME" Language="zh_Hant_HK"><Text>富饒豎向大陸（修復版）</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_DESCRIPTION" Language="zh_Hant_HK"><Text>豎向長條富饒大陸，東西兩側海域較寬，預設採用東西分隊出生。基於 Team PVP 富饒豎向大陸併入，並修復地圖尺寸、生成邏輯與本地化問題。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_2_NAME" Language="zh_Hant_HK"><Text>2人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_2_DESCRIPTION" Language="zh_Hant_HK"><Text>建議2個主要文明。基礎尺寸：58 x 36。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_4_NAME" Language="zh_Hant_HK"><Text>4人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_4_DESCRIPTION" Language="zh_Hant_HK"><Text>建議4個主要文明。基礎尺寸：60 x 48。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_6_NAME" Language="zh_Hant_HK"><Text>6人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_6_DESCRIPTION" Language="zh_Hant_HK"><Text>建議6個主要文明。基礎尺寸：60 x 62。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_8_NAME" Language="zh_Hant_HK"><Text>8人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_8_DESCRIPTION" Language="zh_Hant_HK"><Text>建議8個主要文明。基礎尺寸：66 x 76。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_10_NAME" Language="zh_Hant_HK"><Text>10人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_10_DESCRIPTION" Language="zh_Hant_HK"><Text>建議10個主要文明。基礎尺寸：70 x 88。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_12_NAME" Language="zh_Hant_HK"><Text>12人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_12_DESCRIPTION" Language="zh_Hant_HK"><Text>建議12個主要文明。基礎尺寸：72 x 94。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_14_NAME" Language="zh_Hant_HK"><Text>14人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_14_DESCRIPTION" Language="zh_Hant_HK"><Text>建議14個主要文明。基礎尺寸：72 x 100。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_16_NAME" Language="zh_Hant_HK"><Text>16人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_16_DESCRIPTION" Language="zh_Hant_HK"><Text>建議16個主要文明。基礎尺寸：72 x 106。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_18_NAME" Language="zh_Hant_HK"><Text>18人地圖</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAPSIZE_18_DESCRIPTION" Language="zh_Hant_HK"><Text>建議18個主要文明。基礎尺寸：72 x 112。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_WIDTH_NAME" Language="zh_Hant_HK"><Text>地圖寬度調整</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_MAP_WIDTH_DESCRIPTION" Language="zh_Hant_HK"><Text>每檔調整2列，最多減少8列或增加8列。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_LEVEL_NAME" Language="zh_Hant_HK"><Text>初始道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_LEVEL_DESCRIPTION" Language="zh_Hant_HK"><Text>選擇地圖生成時預先鋪設的道路類型。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_NONE" Language="zh_Hant_HK"><Text>無初始道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_ANCIENT" Language="zh_Hant_HK"><Text>遠古道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_CLASSICAL" Language="zh_Hant_HK"><Text>古典時代道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_INDUSTRIAL" Language="zh_Hant_HK"><Text>工業道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_MODERN" Language="zh_Hant_HK"><Text>現代道路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_ROUTE_RAILROAD" Language="zh_Hant_HK"><Text>鐵路</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_RICHNESS_NAME" Language="zh_Hant_HK"><Text>富饒度</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_RICHNESS_DESCRIPTION" Language="zh_Hant_HK"><Text>綜合影響地貌、資源、大陸、自然奇觀、部落村莊和出生點補償。範圍為1至10。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_COMPETITION_NAME" Language="zh_Hant_HK"><Text>競賽模式</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_COMPETITION_DESCRIPTION" Language="zh_Hant_HK"><Text>將富饒度固定為3，並以至少6格間距分布地脈。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_NAME" Language="zh_Hant_HK"><Text>戰略資源</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_DESCRIPTION" Language="zh_Hant_HK"><Text>調整本地圖的戰略資源豐度。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_STANDARD" Language="zh_Hant_HK"><Text>標準</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_STANDARD_DESCRIPTION" Language="zh_Hant_HK"><Text>使用本地圖的標準戰略資源分布。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MORE" Language="zh_Hant_HK"><Text>更多</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MORE_DESCRIPTION" Language="zh_Hant_HK"><Text>生成更多戰略資源。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MUCH_MORE" Language="zh_Hant_HK"><Text>極多</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_STRATEGIC_MUCH_MORE_DESCRIPTION" Language="zh_Hant_HK"><Text>顯著增加戰略資源數量。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_SPAWN_NAME" Language="zh_Hant_HK"><Text>分隊出生方向</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_SPAWN_DESCRIPTION" Language="zh_Hant_HK"><Text>控制團隊出生點採用的方向布局。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_RANDOM" Language="zh_Hant_HK"><Text>隨機</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_RANDOM_DESCRIPTION" Language="zh_Hant_HK"><Text>使用標準大陸劃分，不限制出生方向。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_EW" Language="zh_Hant_HK"><Text>東西</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_EW_DESCRIPTION" Language="zh_Hant_HK"><Text>對立團隊分別偏向地圖東側和西側出生。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_NS" Language="zh_Hant_HK"><Text>南北</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_TEAM_NS_DESCRIPTION" Language="zh_Hant_HK"><Text>對立團隊分別偏向地圖北側和南側出生。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_NAME" Language="zh_Hant_HK"><Text>城邦放置規則</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_DESCRIPTION" Language="zh_Hant_HK"><Text>選擇城邦使用的出生間距和後備地塊規則，不改變主要文明的放置方式。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_SINGLE" Language="zh_Hant_HK"><Text>單機</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_SINGLE_DESCRIPTION" Language="zh_Hant_HK"><Text>使用 Firaxis 原版城邦出生間距和後備地塊規則。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_MULTI" Language="zh_Hant_HK"><Text>連線</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_CITY_STATE_PLACEMENT_MULTI_DESCRIPTION" Language="zh_Hant_HK"><Text>保留本地圖原有的 Team PVP 嚴格城邦間距和淘汰規則。</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_SPAWN_RECALCULATION_NAME" Language="zh_Hant_HK"><Text>平衡出生點重算</Text></Row>
+		<Row Tag="LOC_ZYL_RVC_SPAWN_RECALCULATION_DESCRIPTION" Language="zh_Hant_HK"><Text>使用併入的 BBS 衍生出生點分配器，並對不合格布局進行重試。</Text></Row>
+	</LocalizedText>
+</GameData>

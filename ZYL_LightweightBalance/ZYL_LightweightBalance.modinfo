@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.6.3">
+<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.6.4">
 	<Properties>
-		<Name>LOC_ZYL_LBM_NAME</Name>
+		<Name>ZYL Lightweight Balance Mod</Name>
 		<Description>LOC_ZYL_LBM_DESCRIPTION</Description>
 		<Teaser>LOC_ZYL_LBM_TEASER</Teaser>
 		<Authors>ZYL and friends</Authors>
-		<Version>0.6.3</Version>
+		<Version>0.6.4</Version>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 
@@ -40,14 +40,78 @@
 		<Criteria id="MayaDLC">
 			<ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
 		</Criteria>
+		<Criteria id="IndonesiaKhmerDLC">
+			<ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse>
+		</Criteria>
+		<Criteria id="EraLengthOptimization">
+			<RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>ZYL_LBM_ERA_LENGTH_OPTIMIZATION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Map">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>MAP_SCRIPT</ConfigurationId>
+				<Value>ZYL_RVC_Map.lua</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_N4">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>-4</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_N3">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>-3</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_N2">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>-2</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_N1">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>-1</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_P1">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>1</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_P2">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>2</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_P3">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>3</Value></ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ZYL_RVC_Width_P4">
+			<ConfigurationValueMatches><Group>Map</Group><ConfigurationId>MAP_SCRIPT</ConfigurationId><Value>ZYL_RVC_Map.lua</Value></ConfigurationValueMatches>
+			<ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ZYL_RVC_MapWidth</ConfigurationId><Value>4</Value></ConfigurationValueMatches>
+		</Criteria>
 	</ActionCriteria>
 
 	<FrontEndActions>
+		<UpdateDatabase id="ZYL_LBM_FrontEndConfiguration">
+			<Properties>
+				<LoadOrder>50000</LoadOrder>
+			</Properties>
+			<File>config/EraLengthOptions.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_FrontEndConfiguration">
+			<Properties>
+				<LoadOrder>50010</LoadOrder>
+			</Properties>
+			<File>config/RichVerticalContinent.xml</File>
+		</UpdateDatabase>
+
 		<UpdateText id="ZYL_LBM_FrontEndText">
 			<Properties>
 				<LoadOrder>4000000</LoadOrder>
 			</Properties>
 			<File>lang/english.xml</File>
+			<File>lang/rich_vertical_continent.xml</File>
 		</UpdateText>
 	</FrontEndActions>
 
@@ -57,6 +121,7 @@
 				<LoadOrder>4000000</LoadOrder>
 			</Properties>
 			<File>lang/english.xml</File>
+			<File>lang/rich_vertical_continent.xml</File>
 		</UpdateText>
 
 		<UpdateDatabase id="ZYL_LBM_Core">
@@ -80,6 +145,13 @@
 			<File>sql/Base/Pantheons.sql</File>
 		</UpdateDatabase>
 
+		<UpdateDatabase id="ZYL_LBM_BaseReligion">
+			<Properties>
+				<LoadOrder>50016</LoadOrder>
+			</Properties>
+			<File>sql/Base/Religion.sql</File>
+		</UpdateDatabase>
+
 		<UpdateDatabase id="ZYL_LBM_XP1Buffs" criteria="XP1">
 			<Properties>
 				<LoadOrder>50020</LoadOrder>
@@ -99,6 +171,20 @@
 				<LoadOrder>50035</LoadOrder>
 			</Properties>
 			<File>sql/DLC/Maya.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_Indonesia" criteria="IndonesiaKhmerDLC">
+			<Properties>
+				<LoadOrder>50036</LoadOrder>
+			</Properties>
+			<File>sql/DLC/Indonesia.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_EraLengthOptimization" criteria="EraLengthOptimization">
+			<Properties>
+				<LoadOrder>50037</LoadOrder>
+			</Properties>
+			<File>sql/XP1/EraLengthOptimization.sql</File>
 		</UpdateDatabase>
 
 		<UpdateDatabase id="ZYL_LBM_XP1SecretSocieties" criteria="SecretSocietiesXP1">
@@ -136,15 +222,100 @@
 			</Properties>
 			<File>ui/TeamPVPTools_PantheonChooser.lua</File>
 		</ImportFiles>
+
+		<UpdateDatabase id="ZYL_RVC_RegisterMapSizes" criteria="ZYL_RVC_Map">
+			<Properties><LoadOrder>90000</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/RegisterMapSizes.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_ConfigureMap" criteria="ZYL_RVC_Map">
+			<Properties><LoadOrder>90010</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/ConfigureMap.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_N4" criteria="ZYL_RVC_Width_N4">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/N4.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_N3" criteria="ZYL_RVC_Width_N3">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/N3.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_N2" criteria="ZYL_RVC_Width_N2">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/N2.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_N1" criteria="ZYL_RVC_Width_N1">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/N1.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_P1" criteria="ZYL_RVC_Width_P1">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/P1.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_P2" criteria="ZYL_RVC_Width_P2">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/P2.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_P3" criteria="ZYL_RVC_Width_P3">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/P3.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="ZYL_RVC_Width_P4" criteria="ZYL_RVC_Width_P4">
+			<Properties><LoadOrder>90020</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/sql/Width/P4.sql</File>
+		</UpdateDatabase>
+		<ImportFiles id="ZYL_RVC_UtilityFiles" criteria="ZYL_RVC_Map">
+			<Properties><LoadOrder>90030</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_AssignStartingPlots.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_Balance.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_ResourceGenerator.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_BBS_TerrainGenerator.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_CoastalLowlands.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_FeatureGenerator.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_MapUtilities.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_MountainsCliffs.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_RiversLakes.lua</File>
+			<File>maps/RichVerticalContinent/Utility/ZYL_RVC_DW_TerrainGenerator.lua</File>
+		</ImportFiles>
+		<ImportFiles id="ZYL_RVC_MapScript" criteria="ZYL_RVC_Map">
+			<Properties><LoadOrder>90031</LoadOrder></Properties>
+			<File>maps/RichVerticalContinent/ZYL_RVC_Map.lua</File>
+		</ImportFiles>
 	</InGameActions>
 
 	<Files>
+		<File>config/EraLengthOptions.xml</File>
+		<File>config/RichVerticalContinent.xml</File>
 		<File>data/icons.xml</File>
 		<File>lang/english.xml</File>
+		<File>lang/rich_vertical_continent.xml</File>
+		<File>maps/RichVerticalContinent/ZYL_RVC_Map.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_AssignStartingPlots.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_Balance.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_ResourceGenerator.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_BBS_TerrainGenerator.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_CoastalLowlands.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_FeatureGenerator.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_MapUtilities.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_MountainsCliffs.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_RiversLakes.lua</File>
+		<File>maps/RichVerticalContinent/Utility/ZYL_RVC_DW_TerrainGenerator.lua</File>
+		<File>maps/RichVerticalContinent/sql/RegisterMapSizes.sql</File>
+		<File>maps/RichVerticalContinent/sql/ConfigureMap.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/N4.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/N3.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/N2.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/N1.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/P1.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/P2.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/P3.sql</File>
+		<File>maps/RichVerticalContinent/sql/Width/P4.sql</File>
 		<File>sql/Core.sql</File>
 		<File>sql/Base/Buffs.sql</File>
 		<File>sql/Base/Pantheons.sql</File>
+		<File>sql/Base/Religion.sql</File>
+		<File>sql/DLC/Indonesia.sql</File>
 		<File>sql/DLC/Maya.sql</File>
+		<File>sql/XP1/EraLengthOptimization.sql</File>
 		<File>sql/XP1/Buffs_XP1.sql</File>
 		<File>sql/XP2/Buffs_XP2.sql</File>
 		<File>sql/XP2/SecretSocieties.sql</File>

@@ -2,10 +2,10 @@
 <GameData>
 	<LocalizedText>
 		<Row Tag="LOC_ZYL_LBM_NAME" Language="en_US">
-			<Text>ZYL's Lightweight Balance Mod</Text>
+			<Text>ZYL Lightweight Balance Mod</Text>
 		</Row>
 		<Row Tag="LOC_ZYL_LBM_DESCRIPTION" Language="en_US">
-			<Text>Lightweight Civilization VI balance changes for friendly multiplayer games.</Text>
+			<Text>Lightweight Civilization VI balance changes for friendly multiplayer games. Every map size supports up to 7 founded religions.</Text>
 		</Row>
 		<Row Tag="LOC_ZYL_LBM_TEASER" Language="en_US">
 			<Text>Lightweight multiplayer balance tweaks.</Text>
@@ -14,10 +14,23 @@
 			<Text>ZYL的轻量化平衡模组</Text>
 		</Row>
 		<Row Tag="LOC_ZYL_LBM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>用于朋友联机的文明6轻量化平衡调整。</Text>
+			<Text>用于朋友联机的文明6轻量化平衡调整。所有地图尺寸最多均可创立7个宗教。</Text>
 		</Row>
 		<Row Tag="LOC_ZYL_LBM_TEASER" Language="zh_Hans_CN">
 			<Text>轻量化联机平衡调整。</Text>
+		</Row>
+
+		<Row Tag="LOC_ZYL_LBM_ERA_LENGTH_OPTION_NAME" Language="en_US">
+			<Text>Era Length Optimization</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_ERA_LENGTH_OPTION_DESCRIPTION" Language="en_US">
+			<Text>Adjusts World Era duration ranges at Standard speed: Ancient 30-50 turns, Classical 50-60, Medieval 40-60, and Renaissance through Information 30-60. Other game speeds scale these values automatically.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_ERA_LENGTH_OPTION_NAME" Language="zh_Hans_CN">
+			<Text>时代长度优化</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_ERA_LENGTH_OPTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>调整标准速度下的世界时代持续范围：远古时代30-50回合、古典时代50-60回合、中世纪40-60回合、文艺复兴至信息时代30-60回合。其他游戏速度自动按比例缩放。</Text>
 		</Row>
 
 		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="en_US">
@@ -66,7 +79,10 @@
 		</Row>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="en_US">
-			<Text>Settling adjacent to Fresh Water and Coast does not provide extra [ICON_HOUSING] Housing. Instead, each Farm provides an additional +1 [ICON_HOUSING] Housing, +1 [ICON_Production] Production for every adjacent Observatory, and +1 [ICON_Gold] Gold. The Palace provides an additional +2 [ICON_Housing] Housing. Builders can construct Farms on Grassland Hills and Plains Hills without Civil Engineering. +1 [ICON_Amenities] Amenity for every Luxury resource adjacent to the City Center.</Text>
+			<Text>Settling adjacent to Fresh Water and Coast does not provide extra [ICON_HOUSING] Housing. Instead, each Farm provides an additional +1 [ICON_HOUSING] Housing, +1 [ICON_Production] Production for every adjacent Observatory, and +1 [ICON_Gold] Gold. All cities gain +1 [ICON_Housing] Housing, and the Palace provides a total of +2 [ICON_Housing] Housing. Builders can construct Farms on Grassland Hills and Plains Hills without Civil Engineering. +1 [ICON_Amenities] Amenity for every Luxury resource adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION" Language="en_US">
+			<Text>Coast and Lake tiles provide a standard adjacency bonus for Holy Sites and a minor adjacency bonus for Campuses, Industrial Zones, and Theater Squares. +1 [ICON_AMENITIES] Amenity from entertainment to each Entertainment Complex adjacent to a Coast or Lake tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="en_US">
 			<Text>Non-capital cities within 8 tiles of the [ICON_Capital] Capital gain +10% to all yields and receive a Builder when founded. Other non-capital cities receive -15% to all yields. Units within 8 tiles of the [ICON_Capital] Capital gain +5 [ICON_Strength] Combat Strength.</Text>
@@ -76,7 +92,10 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在淡水和海岸旁定居时不提供额外 [ICON_Housing] 住房；但每座农场额外+1 [ICON_Housing] 住房、每与一座天文台相邻则+1 [ICON_Production] 生产力、+1 [ICON_Gold] 金币。宫殿额外+2 [ICON_Housing] 住房。建造者无需解锁“土木工程”市政即可在草原丘陵和平原丘陵上修建农场。每有一种奢侈品与市中心相邻，则+1 [ICON_Amenities] 宜居度。</Text>
+			<Text>在淡水和海岸旁定居时不提供额外 [ICON_Housing] 住房；但每座农场额外+1 [ICON_Housing] 住房、每与一座天文台相邻则+1 [ICON_Production] 生产力、+1 [ICON_Gold] 金币。所有城市+1 [ICON_Housing] 住房，宫殿总计提供+2 [ICON_Housing] 住房。建造者无需解锁“土木工程”市政即可在草原丘陵和平原丘陵上修建农场。每有一种奢侈品与市中心相邻，则+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>海岸和湖泊单元格为圣地提供标准相邻加成，并为学院、工业区和剧院广场提供少量相邻加成。如与海岸或湖泊单元格相邻，娱乐设施+1 [ICON_AMENITIES] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_Capital] 首都8单元格范围内的非首都城市所有产出+10%，且建成时将获得1名建造者。其他非首都城市的所有产出-15%。[ICON_Capital] 首都8单元格范围内的单位+5 [ICON_Strength] 战斗力。</Text>
@@ -520,10 +539,17 @@
 			<Text>ZYL的輕量化平衡模組</Text>
 		</Row>
 		<Row Tag="LOC_ZYL_LBM_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>用於朋友連線的文明6輕量化平衡調整。</Text>
+			<Text>用於朋友連線的文明6輕量化平衡調整。所有地圖尺寸最多均可創立7個宗教。</Text>
 		</Row>
 		<Row Tag="LOC_ZYL_LBM_TEASER" Language="zh_Hant_HK">
 			<Text>輕量化連線平衡調整。</Text>
+		</Row>
+
+		<Row Tag="LOC_ZYL_LBM_ERA_LENGTH_OPTION_NAME" Language="zh_Hant_HK">
+			<Text>時代長度最佳化</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_ERA_LENGTH_OPTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>調整標準速度下的世界時代持續範圍：遠古時代30-50回合、古典時代50-60回合、中世紀40-60回合、文藝復興至資訊時代30-60回合。其他遊戲速度自動按比例縮放。</Text>
 		</Row>
 
 		<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="zh_Hant_HK">
@@ -550,7 +576,10 @@
 		</Row>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>在淡水及海岸旁開拓城市無法提供額外 [ICON_Housing] 住房，但每座農場額外提供+1 [ICON_Housing] 住房，每與一座天文臺相鄰+1 [ICON_Production] 生產力，並+1 [ICON_Gold] 金幣。宮殿額外+2 [ICON_Housing] 住房。建造者無需解鎖「土木工程」市政即可在草原丘陵和平原丘陵上建造農場。市中心每與一處奢侈品資源相鄰，則+1 [ICON_Amenities] 滿意度。</Text>
+			<Text>在淡水及海岸旁開拓城市無法提供額外 [ICON_Housing] 住房，但每座農場額外提供+1 [ICON_Housing] 住房，每與一座天文臺相鄰+1 [ICON_Production] 生產力，並+1 [ICON_Gold] 金幣。所有城市+1 [ICON_Housing] 住房，宮殿總計提供+2 [ICON_Housing] 住房。建造者無需解鎖「土木工程」市政即可在草原丘陵和平原丘陵上建造農場。市中心每與一處奢侈品資源相鄰，則+1 [ICON_Amenities] 滿意度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>海岸和湖泊單元格為聖地提供標準相鄰加成，並為學院、工業區和劇場廣場提供少量相鄰加成。與海岸或湖泊單元格相鄰的娛樂中心可獲得 [ICON_AMENITIES] 滿意度+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>距離 [ICON_Capital] 首都8單元格範圍內之非首都都市的所有收益+10%，並且在城市建立之初獲得1個建造者。其他非首都都市之所有收益-15%。在距離 [ICON_Capital] 首都8單元格範圍內戰鬥時+5 [ICON_Strength] 戰鬥力。</Text>

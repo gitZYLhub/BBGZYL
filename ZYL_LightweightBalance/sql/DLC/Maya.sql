@@ -26,7 +26,34 @@ SET Value = 9
 WHERE RequirementId = 'REQUIRES_OBJECT_7_OR_MORE_TILES_FROM_CAPITAL'
   AND Name = 'MinDistance';
 
--- Mayab: the Palace provides +2 Housing.
+-- Remove the previous capital-only +2 Housing implementation when upgrading
+-- or hot-reloading from version 0.6.3.
+DELETE FROM TraitModifiers
+WHERE ModifierId = 'ZYL_LBM_MAYA_PALACE_HOUSING';
+
+DELETE FROM ModifierArguments
+WHERE ModifierId = 'ZYL_LBM_MAYA_PALACE_HOUSING';
+
+DELETE FROM Modifiers
+WHERE ModifierId = 'ZYL_LBM_MAYA_PALACE_HOUSING';
+
+DELETE FROM RequirementSetRequirements
+WHERE RequirementSetId = 'ZYL_LBM_MAYA_CITY_HAS_PALACE_REQUIREMENTS'
+   OR RequirementId = 'ZYL_LBM_REQUIRES_MAYA_CITY_HAS_PALACE';
+
+DELETE FROM RequirementArguments
+WHERE RequirementId = 'ZYL_LBM_REQUIRES_MAYA_CITY_HAS_PALACE';
+
+DELETE FROM Requirements
+WHERE RequirementId = 'ZYL_LBM_REQUIRES_MAYA_CITY_HAS_PALACE';
+
+DELETE FROM RequirementSets
+WHERE RequirementSetId = 'ZYL_LBM_MAYA_CITY_HAS_PALACE_REQUIREMENTS';
+
+-- Mayab: every Maya city gains +1 Housing. The Palace already provides +1
+-- Housing in the base game, so a further +1 in the capital makes its total
+-- Palace contribution +2 and produces 5 starting Housing versus 3 in other
+-- Maya cities.
 INSERT OR IGNORE INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
 	('ZYL_LBM_MAYA_CITY_HAS_PALACE_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL');
 
@@ -39,21 +66,24 @@ INSERT OR IGNORE INTO RequirementArguments (RequirementId, Name, Value) VALUES
 INSERT OR IGNORE INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
 	('ZYL_LBM_MAYA_CITY_HAS_PALACE_REQUIREMENTS', 'ZYL_LBM_REQUIRES_MAYA_CITY_HAS_PALACE');
 
--- Mayab: only Maya cities gain early Farms on the two hill terrains that
--- normally require Civil Engineering.
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType) VALUES
+	('ZYL_LBM_MAYA_ALL_CITIES_HOUSING', 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_HOUSING');
+
 INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
 	('ZYL_LBM_MAYA_PALACE_HOUSING', 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_HOUSING', 'ZYL_LBM_MAYA_CITY_HAS_PALACE_REQUIREMENTS'),
 	('ZYL_LBM_MAYA_GRASS_HILLS_FARMS', 'MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN', NULL),
 	('ZYL_LBM_MAYA_PLAINS_HILLS_FARMS', 'MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN', NULL);
 
 INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES
-	('ZYL_LBM_MAYA_PALACE_HOUSING', 'Amount', 2),
+	('ZYL_LBM_MAYA_ALL_CITIES_HOUSING', 'Amount', 1),
+	('ZYL_LBM_MAYA_PALACE_HOUSING', 'Amount', 1),
 	('ZYL_LBM_MAYA_GRASS_HILLS_FARMS', 'ImprovementType', 'IMPROVEMENT_FARM'),
 	('ZYL_LBM_MAYA_GRASS_HILLS_FARMS', 'TerrainType', 'TERRAIN_GRASS_HILLS'),
 	('ZYL_LBM_MAYA_PLAINS_HILLS_FARMS', 'ImprovementType', 'IMPROVEMENT_FARM'),
 	('ZYL_LBM_MAYA_PLAINS_HILLS_FARMS', 'TerrainType', 'TERRAIN_PLAINS_HILLS');
 
 INSERT OR IGNORE INTO TraitModifiers (TraitType, ModifierId) VALUES
+	('TRAIT_CIVILIZATION_MAYAB', 'ZYL_LBM_MAYA_ALL_CITIES_HOUSING'),
 	('TRAIT_CIVILIZATION_MAYAB', 'ZYL_LBM_MAYA_PALACE_HOUSING'),
 	('TRAIT_CIVILIZATION_MAYAB', 'ZYL_LBM_MAYA_GRASS_HILLS_FARMS'),
 	('TRAIT_CIVILIZATION_MAYAB', 'ZYL_LBM_MAYA_PLAINS_HILLS_FARMS');

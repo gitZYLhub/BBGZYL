@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Row Key1="Ruleset"
+			 Key2="RULESET_EXPANSION_1"
+			 ParameterId="ZYL_LBM_ERA_LENGTH_OPTIMIZATION"
+			 Name="LOC_ZYL_LBM_ERA_LENGTH_OPTION_NAME"
+			 Description="LOC_ZYL_LBM_ERA_LENGTH_OPTION_DESCRIPTION"
+			 Domain="bool"
+			 DefaultValue="0"
+			 ConfigurationGroup="Game"
+			 ConfigurationId="ZYL_LBM_ERA_LENGTH_OPTIMIZATION"
+			 GroupId="GameOptions"
+			 SupportsSinglePlayer="1"
+			 SupportsPlayByCloud="1"
+			 SupportsHotSeat="1"
+			 SortIndex="2010" />
+		<Row Key1="Ruleset"
+			 Key2="RULESET_EXPANSION_2"
+			 ParameterId="ZYL_LBM_ERA_LENGTH_OPTIMIZATION"
+			 Name="LOC_ZYL_LBM_ERA_LENGTH_OPTION_NAME"
+			 Description="LOC_ZYL_LBM_ERA_LENGTH_OPTION_DESCRIPTION"
+			 Domain="bool"
+			 DefaultValue="0"
+			 ConfigurationGroup="Game"
+			 ConfigurationId="ZYL_LBM_ERA_LENGTH_OPTIMIZATION"
+			 GroupId="GameOptions"
+			 SupportsSinglePlayer="1"
+			 SupportsPlayByCloud="1"
+			 SupportsHotSeat="1"
+			 SortIndex="2010" />
+	</Parameters>
+</GameInfo>

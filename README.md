@@ -1,6 +1,6 @@
 # BBGZYL workspace
 
-This repository is the working area for ZYL's Lightweight Balance Mod.
+This repository is the working area for ZYL Lightweight Balance Mod.
 
 Tracked content:
 

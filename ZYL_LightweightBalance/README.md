@@ -1,17 +1,22 @@
 # ZYL的轻量化平衡模组
 
-English name: ZYL's Lightweight Balance Mod
+English name: ZYL Lightweight Balance Mod
 
 A lightweight Civilization VI mod for friendly multiplayer balance changes.
 The mod prefers gentle changes, but "buff-only" is not a strict rule.
 
 ## Current state
 
-Version 0.6.3 implements the current agreed set of changes in three categories:
+Version 0.6.4 implements the current agreed set of changes in four categories:
 
 - game-wide numerical adjustments
 - game content additions
 - civilization balance adjustments
+- an optional repaired Rich Vertical Continent map for Gathering Storm
+
+The optional map exposes vanilla-equivalent city-state counts and a dedicated
+Single Player / Multiplayer city-state placement rule. Multiplayer remains the
+default and preserves the map's original Team PVP behavior.
 
 Detailed documentation:
 
@@ -32,7 +37,7 @@ folder, usually:
 
 `Documents\My Games\Sid Meier's Civilization VI\Mods`
 
-Then enable `ZYL的轻量化平衡模组` in Additional Content.
+Then enable `ZYL Lightweight Balance Mod` in Additional Content.
 
 Keep only one installed copy of the mod, and confirm it is enabled before
 starting a new game. The current Workshop item uses ID `3765780333`.
