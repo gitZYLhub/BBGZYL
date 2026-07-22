@@ -3,12 +3,27 @@
 -- PURPOSE: Changes for Rise and Fall / Gathering Storm content.
 ------------------------------------------------------------------------------
 
--- Pen, Brush, and Voice / "百花齐放": +2 Culture per district in Golden or Heroic Ages.
+-- Pen, Brush, and Voice / "百花齐放": +2 Culture, +1 Production,
+-- and +2 Gold per district in Golden or Heroic Ages.
 UPDATE ModifierArguments
 SET Value = '2'
 WHERE ModifierId = 'COMMEMORATION_CULTURAL_DISTRICTCULTURE'
   AND Name = 'Amount'
   AND CAST(Value AS INTEGER) < 2;
+
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+	('ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_PRODUCTION', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT', 'PLAYER_HAS_GOLDEN_AGE'),
+	('ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_GOLD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT', 'PLAYER_HAS_GOLDEN_AGE');
+
+INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES
+	('ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_PRODUCTION', 'YieldType', 'YIELD_PRODUCTION'),
+	('ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_PRODUCTION', 'Amount', 1),
+	('ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_GOLD', 'YieldType', 'YIELD_GOLD'),
+	('ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_GOLD', 'Amount', 2);
+
+INSERT OR IGNORE INTO CommemorationModifiers (CommemorationType, ModifierId) VALUES
+	('COMMEMORATION_CULTURAL', 'ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_PRODUCTION'),
+	('COMMEMORATION_CULTURAL', 'ZYL_LBM_COMMEMORATION_CULTURAL_DISTRICT_GOLD');
 
 ------------------------------------------------------------------------------
 -- Georgia's Tsikhe retains twice the Outer Defense of its standard wall tier:
@@ -22,13 +37,10 @@ WHERE BuildingType = 'BUILDING_TSIKHE';
 -- Governor establishment times
 ------------------------------------------------------------------------------
 
--- Pingala retains a 5-turn establishment time. Every other regular Governor
--- establishes in 3 turns; Secret Society pseudo-Governors are excluded.
+-- Every regular Governor establishes in 3 turns; Secret Society
+-- pseudo-Governors are excluded.
 UPDATE Governors
-SET TransitionStrength = CASE
-	WHEN GovernorType = 'GOVERNOR_THE_EDUCATOR' THEN 100
-	ELSE 150
-END
+SET TransitionStrength = 150
 WHERE GovernorType IN (
 	'GOVERNOR_THE_EDUCATOR',
 	'GOVERNOR_THE_RESOURCE_MANAGER',

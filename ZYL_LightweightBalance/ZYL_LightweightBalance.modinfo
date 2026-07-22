@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.6.4">
+<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.7.0">
 	<Properties>
 		<Name>ZYL Lightweight Balance Mod</Name>
 		<Description>LOC_ZYL_LBM_DESCRIPTION</Description>
 		<Teaser>LOC_ZYL_LBM_TEASER</Teaser>
 		<Authors>ZYL and friends</Authors>
-		<Version>0.6.4</Version>
+		<Version>0.7.0</Version>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 

@@ -9,7 +9,7 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
-ROOT = Path(r"D:\Civilization\Civ6mods\BBGZYL")
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "ZYL_LightweightBalance" / "docs" / "full_changes_mobile.md"
 OUTPUT = ROOT / "ZYL_LightweightBalance" / "docs" / "ZYL轻量化平衡模组_修改大全_微信版_无编号版.docx"
 

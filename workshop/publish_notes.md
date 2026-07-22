@@ -2,7 +2,7 @@
 
 - 标题：`ZYL Lightweight Balance Mod`
 - 游戏：Sid Meier's Civilization VI（App ID `289070`）
-- 版本：`0.6.4`
+- 版本：`0.7.0`
 - 首次可见性：仅自己可见
 - 建议标签：Gameplay、Rulesets、Maps、Multiplayer、Chinese、English
 - 上传目录：`D:\Civilization\Civ6mods\BBGZYL\ZYL_LightweightBalance`

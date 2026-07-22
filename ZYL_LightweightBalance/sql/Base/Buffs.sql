@@ -39,6 +39,12 @@ UPDATE Technologies
 SET Description = 'LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION'
 WHERE TechnologyType = 'TECH_STEEL';
 
+-- Battleship: align with BBG's lower combat profile.
+UPDATE Units
+SET Combat = 65,
+	RangedCombat = 75
+WHERE UnitType = 'UNIT_BATTLESHIP';
+
 -- Luxury resource yield adjustments.
 INSERT OR IGNORE INTO Resource_YieldChanges (ResourceType, YieldType, YieldChange) VALUES
 	('RESOURCE_MERCURY', 'YIELD_PRODUCTION', 0),
@@ -126,6 +132,50 @@ SET YieldChange = YieldChange + 1
 WHERE ImprovementType = 'IMPROVEMENT_FISHING_BOATS'
   AND YieldType = 'YIELD_PRODUCTION';
 
+-- Harbors and unique Harbor replacements provide +2 Housing. Lighthouses and
+-- their replacements no longer provide Housing, moving the sea-city Housing
+-- payoff to the district itself.
+UPDATE Buildings
+SET Housing = 0,
+	Description = CASE
+		WHEN BuildingType = 'BUILDING_LIGHTHOUSE' THEN 'LOC_BUILDING_ZYL_LBM_LIGHTHOUSE_DESCRIPTION'
+		ELSE Description
+	END
+WHERE BuildingType = 'BUILDING_LIGHTHOUSE'
+   OR BuildingType IN (
+		SELECT CivUniqueBuildingType
+		FROM BuildingReplaces
+		WHERE ReplacesBuildingType = 'BUILDING_LIGHTHOUSE'
+   );
+
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType) VALUES
+	('ZYL_LBM_HARBOR_HOUSING', 'MODIFIER_CITY_DISTRICTS_ADJUST_DISTRICT_HOUSING');
+
+INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES
+	('ZYL_LBM_HARBOR_HOUSING', 'Amount', 2);
+
+INSERT OR IGNORE INTO DistrictModifiers (DistrictType, ModifierId)
+	SELECT DistrictType, 'ZYL_LBM_HARBOR_HOUSING'
+	FROM Districts
+	WHERE DistrictType = 'DISTRICT_HARBOR'
+	   OR DistrictType IN (
+			SELECT CivUniqueDistrictType
+			FROM DistrictReplaces
+			WHERE ReplacesDistrictType = 'DISTRICT_HARBOR'
+	   );
+
+UPDATE Districts
+SET Description = CASE
+	WHEN DistrictType = 'DISTRICT_HARBOR' THEN 'LOC_DISTRICT_ZYL_LBM_HARBOR_DESCRIPTION'
+	ELSE Description
+END
+WHERE DistrictType = 'DISTRICT_HARBOR'
+   OR DistrictType IN (
+		SELECT CivUniqueDistrictType
+		FROM DistrictReplaces
+		WHERE ReplacesDistrictType = 'DISTRICT_HARBOR'
+   );
+
 -- Commercial Hub and unique replacements receive a major Gold adjacency from Luxury resources.
 INSERT OR IGNORE INTO Adjacency_YieldChanges
 	(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentResourceClass)
@@ -196,6 +246,13 @@ UPDATE Buildings
 SET Cost = 140
 WHERE BuildingType = 'BUILDING_WORKSHOP'
   AND Cost > 140;
+
+-- Seaport: unlock earlier at Steam Power and reduce standard-speed cost to 360.
+UPDATE Buildings
+SET PrereqTech = 'TECH_STEAM_POWER',
+	Cost = 360,
+	Description = 'LOC_BUILDING_ZYL_LBM_SEAPORT_DESCRIPTION'
+WHERE BuildingType = 'BUILDING_SEAPORT';
 
 -- District specialists: increase baseline specialist yields. Unique district
 -- replacements inherit the target values from their matching normal districts.

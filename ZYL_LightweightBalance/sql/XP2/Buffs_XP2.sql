@@ -52,7 +52,8 @@ VALUES
 	('ROUTE_MODERN_ROAD', 'RESOURCE_IRON', 1);
 
 UPDATE Units
-SET Description = 'LOC_UNIT_ZYL_LBM_MILITARY_ENGINEER_DESCRIPTION'
+SET BaseMoves = 4,
+	Description = 'LOC_UNIT_ZYL_LBM_MILITARY_ENGINEER_DESCRIPTION'
 WHERE UnitType = 'UNIT_MILITARY_ENGINEER';
 
 ------------------------------------------------------------------------------
@@ -281,12 +282,20 @@ INSERT OR IGNORE INTO GovernorPromotionModifiers (GovernorPromotionType, Modifie
 
 -- Make Fisheries a general Builder improvement unlocked by Celestial
 -- Navigation, raise Housing from 0.5 to 1, and remove Liang's production
--- modifier. Base +1 Food and sea-resource adjacency Food are retained.
+-- modifier. Base +1 Food, sea-resource placement requirements, and
+-- sea-resource adjacency Food are retained.
 UPDATE Improvements
 SET TraitType = NULL,
 	PrereqTech = 'TECH_CELESTIAL_NAVIGATION',
 	Housing = 2
 WHERE ImprovementType = 'IMPROVEMENT_FISHERY';
+
+-- Reefs become valid Fishery plots, but Fisheries still follow the
+-- improvement's existing adjacent sea resource requirement.
+INSERT OR IGNORE INTO Improvement_ValidFeatures
+	(ImprovementType, FeatureType, PrereqTech, PrereqCivic)
+VALUES
+	('IMPROVEMENT_FISHERY', 'FEATURE_REEF', NULL, NULL);
 
 DELETE FROM ImprovementModifiers
 WHERE ImprovementType = 'IMPROVEMENT_FISHERY';
