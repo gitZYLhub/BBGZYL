@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.7.0">
+<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.7.2">
 	<Properties>
 		<Name>ZYL Lightweight Balance Mod</Name>
-		<Description>LOC_ZYL_LBM_DESCRIPTION</Description>
-		<Teaser>LOC_ZYL_LBM_TEASER</Teaser>
+		<Description>Lightweight Civilization VI balance changes for friendly multiplayer games.</Description>
+		<Teaser>Lightweight multiplayer balance tweaks.</Teaser>
 		<Authors>ZYL and friends</Authors>
-		<Version>0.7.0</Version>
+		<Version>0.7.2</Version>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 
@@ -136,6 +136,13 @@
 				<LoadOrder>50010</LoadOrder>
 			</Properties>
 			<File>sql/Base/Buffs.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_BaseTechnologies">
+			<Properties>
+				<LoadOrder>50012</LoadOrder>
+			</Properties>
+			<File>sql/Base/Technologies.sql</File>
 		</UpdateDatabase>
 
 		<UpdateDatabase id="ZYL_LBM_BasePantheons">
@@ -311,6 +318,7 @@
 		<File>maps/RichVerticalContinent/sql/Width/P4.sql</File>
 		<File>sql/Core.sql</File>
 		<File>sql/Base/Buffs.sql</File>
+		<File>sql/Base/Technologies.sql</File>
 		<File>sql/Base/Pantheons.sql</File>
 		<File>sql/Base/Religion.sql</File>
 		<File>sql/DLC/Indonesia.sql</File>

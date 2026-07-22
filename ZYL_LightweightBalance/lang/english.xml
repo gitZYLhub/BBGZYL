@@ -49,6 +49,9 @@
 		<Row Tag="LOC_BUILDING_ZYL_LBM_STAR_FORT_DESCRIPTION" Language="en_US">
 			<Text>Adds 50 Outer Defense Hit Points and +3 Outer Defense Strength to the City Center and Encampment district. Provides 3 [ICON_Tourism] Tourism after advancing to Conservation.</Text>
 		</Row>
+		<Row Tag="LOC_TECH_ZYL_LBM_CELESTIAL_NAVIGATION_DESCRIPTION" Language="en_US">
+			<Text>Allows all land units to embark, and allows harvesting of [ICON_RESOURCE_FISH] Fish and [ICON_RESOURCE_CRABS] Crabs.</Text>
+		</Row>
 		<Row Tag="LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION" Language="en_US">
 			<Text>Grants Urban Defenses to all cities, setting their Outer Defense Hit Points to 200 and allowing them to perform [ICON_Ranged] Ranged Strikes.</Text>
 		</Row>
@@ -67,6 +70,9 @@
 		</Row>
 		<Row Tag="LOC_BUILDING_ZYL_LBM_STAR_FORT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为市中心和军营区增加50点外部防御生命值和3点外部防御力。解锁“自然保护”市政后提供3点[ICON_Tourism]旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ZYL_LBM_CELESTIAL_NAVIGATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许所有陆地单位上船，并允许收获[ICON_RESOURCE_FISH]鱼和[ICON_RESOURCE_CRABS]螃蟹。</Text>
 		</Row>
 		<Row Tag="LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为所有城市解锁都市防御，将其外部防御生命值设为200，并允许城市发动[ICON_Ranged]远程攻击。</Text>
@@ -315,6 +321,75 @@
 		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_DESCRIPTION" Language="en_US">
 			<Text>Plantations in cities following this Pantheon provide +1 [ICON_Food] Food and +2 [ICON_Gold] Gold.</Text>
 		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_EARTH_SPIRITS_NAME" Language="en_US">
+			<Text>Earth Spirits</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_EARTH_SPIRITS_DESCRIPTION" Language="en_US">
+			<Text>Tile purchase costs are reduced by 50%.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GARDEN_GODDESS_NAME" Language="en_US">
+			<Text>Goddess of Gardens</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GARDEN_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>Plantations in cities following this Pantheon provide +1 [ICON_Science] Science and +2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_WEALTH_GODDESS_NAME" Language="en_US">
+			<Text>Goddess of Wealth</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_WEALTH_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>Researching Pottery unlocks Commercial Hubs. Luxury resource tiles adjacent to a Commercial Hub in cities following this Pantheon provide +2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_TRADE_GOD_NAME" Language="en_US">
+			<Text>God of Trade</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_TRADE_GOD_DESCRIPTION" Language="en_US">
+			<Text>All Trade Routes provide +1 [ICON_Production] Production. Purchasing Traders costs 50% less.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PATH_OF_CONQUEST_NAME" Language="en_US">
+			<Text>Path of Conquest</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PATH_OF_CONQUEST_DESCRIPTION" Language="en_US">
+			<Text>Encampments and their unique replacements provide +1 [ICON_Production] Production, +2 [ICON_Culture] Culture, and +2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SACRED_INSCRIPTIONS_NAME" Language="en_US">
+			<Text>Sacred Inscriptions</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SACRED_INSCRIPTIONS_DESCRIPTION" Language="en_US">
+			<Text>Cities with a Monument or Old God Obelisk receive +3 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GRANARY_GOD_NAME" Language="en_US">
+			<Text>God of Granaries</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GRANARY_GOD_DESCRIPTION" Language="en_US">
+			<Text>Cities with a Granary receive +1 [ICON_Culture] Culture, +1 [ICON_Gold] Gold, and +1 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GEOTHERMAL_GOD_NAME" Language="en_US">
+			<Text>God of Geothermal Springs</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GEOTHERMAL_GOD_DESCRIPTION" Language="en_US">
+			<Text>Geothermal Fissures in cities following this Pantheon provide +2 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_RIVER_GOD_NAME" Language="en_US">
+			<Text>God of Flowing Waters</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_RIVER_GOD_DESCRIPTION" Language="en_US">
+			<Text>Campuses, Holy Sites, Commercial Hubs, Industrial Zones, and Theater Squares gain an additional standard adjacency bonus from Rivers.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_CAMPUS_ADJACENCY" Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from the adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_HOLY_SITE_ADJACENCY" Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from the adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_COMMERCIAL_HUB_ADJACENCY" Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from the adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_INDUSTRIAL_ZONE_ADJACENCY" Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from the adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_THEATER_ADJACENCY" Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from the adjacent River.</Text>
+		</Row>
 
 		<Row Tag="LOC_BELIEF_ZYL_LBM_MOON_GODDESS_NAME" Language="zh_Hans_CN">
 			<Text>月亮女神</Text>
@@ -345,6 +420,75 @@
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>信奉此万神殿的城市中，种植园+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_EARTH_SPIRITS_NAME" Language="zh_Hans_CN">
+			<Text>地灵契约</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_EARTH_SPIRITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>购买单元格的费用降低50%。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GARDEN_GODDESS_NAME" Language="zh_Hans_CN">
+			<Text>花园女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GARDEN_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿的城市中，种植园+1 [ICON_Science] 科技、+2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_WEALTH_GODDESS_NAME" Language="zh_Hans_CN">
+			<Text>财富女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_WEALTH_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>研究“制陶术”后即可建造商业中心。信奉此万神殿的城市中，与商业中心相邻的奢侈资源单元格+2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_TRADE_GOD_NAME" Language="zh_Hans_CN">
+			<Text>贸易之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_TRADE_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有贸易路线+1 [ICON_Production] 生产力。购买商人的费用降低50%。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PATH_OF_CONQUEST_NAME" Language="zh_Hans_CN">
+			<Text>征战之路</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PATH_OF_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军营及特色军营+1 [ICON_Production] 生产力、+2 [ICON_Culture] 文化、+2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SACRED_INSCRIPTIONS_NAME" Language="zh_Hans_CN">
+			<Text>神圣碑文</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SACRED_INSCRIPTIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有纪念碑或旧神方尖碑的城市+3 [ICON_Faith] 信仰。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GRANARY_GOD_NAME" Language="zh_Hans_CN">
+			<Text>仓廪之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GRANARY_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有粮仓的城市+1 [ICON_Culture] 文化、+1 [ICON_Gold] 金币、+1 [ICON_Faith] 信仰。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GEOTHERMAL_GOD_NAME" Language="zh_Hans_CN">
+			<Text>地热之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GEOTHERMAL_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿的城市中，地热裂缝+2 [ICON_Culture] 文化。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_RIVER_GOD_NAME" Language="zh_Hans_CN">
+			<Text>水流之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_RIVER_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>学院、圣地、商业中心、工业区和剧院广场从河流获得额外标准相邻加成。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_CAMPUS_ADJACENCY" Language="zh_Hans_CN">
+			<Text>相邻河流+{1_Num} [ICON_Science] 科技。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_HOLY_SITE_ADJACENCY" Language="zh_Hans_CN">
+			<Text>相邻河流+{1_Num} [ICON_Faith] 信仰。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_COMMERCIAL_HUB_ADJACENCY" Language="zh_Hans_CN">
+			<Text>相邻河流+{1_Num} [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_INDUSTRIAL_ZONE_ADJACENCY" Language="zh_Hans_CN">
+			<Text>相邻河流+{1_Num} [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_THEATER_ADJACENCY" Language="zh_Hans_CN">
+			<Text>相邻河流+{1_Num} [ICON_Culture] 文化。</Text>
 		</Row>
 
 		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
@@ -605,6 +749,9 @@
 		<Row Tag="LOC_BUILDING_ZYL_LBM_STAR_FORT_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>為市中心和軍營區增加50點外部防禦生命值和3點外部防禦力。解鎖「自然保育」市政後提供3點[ICON_Tourism]旅遊業績。</Text>
 		</Row>
+		<Row Tag="LOC_TECH_ZYL_LBM_CELESTIAL_NAVIGATION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>允許所有陸地單位上船，並允許收穫[ICON_RESOURCE_FISH]魚和[ICON_RESOURCE_CRABS]螃蟹。</Text>
+		</Row>
 		<Row Tag="LOC_TECH_ZYL_LBM_STEEL_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>為所有城市解鎖都市防禦，將其外部防禦生命值設為200，並允許城市發動[ICON_Ranged]遠程攻擊。</Text>
 		</Row>
@@ -737,6 +884,75 @@
 		</Row>
 		<Row Tag="LOC_BELIEF_ZYL_LBM_ORAL_TRADITION_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>信奉此萬神殿的城市中，種植園+1 [ICON_Food] 食物、+2 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_EARTH_SPIRITS_NAME" Language="zh_Hant_HK">
+			<Text>地靈契約</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_EARTH_SPIRITS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>購買單元格的費用降低50%。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GARDEN_GODDESS_NAME" Language="zh_Hant_HK">
+			<Text>花園女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GARDEN_GODDESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，種植園+1 [ICON_Science] 科技值、+2 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_WEALTH_GODDESS_NAME" Language="zh_Hant_HK">
+			<Text>財富女神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_WEALTH_GODDESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>研究「製陶術」後即可建造商業中心。信奉此萬神殿的城市中，與商業中心相鄰的奢侈資源單元格+2 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_TRADE_GOD_NAME" Language="zh_Hant_HK">
+			<Text>貿易之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_TRADE_GOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有貿易路線+1 [ICON_Production] 生產力。購買商人的費用降低50%。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PATH_OF_CONQUEST_NAME" Language="zh_Hant_HK">
+			<Text>征戰之路</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PATH_OF_CONQUEST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>軍營及特色軍營+1 [ICON_Production] 生產力、+2 [ICON_Culture] 文化值、+2 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SACRED_INSCRIPTIONS_NAME" Language="zh_Hant_HK">
+			<Text>神聖碑文</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SACRED_INSCRIPTIONS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擁有紀念碑或舊神方尖碑的城市+3 [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GRANARY_GOD_NAME" Language="zh_Hant_HK">
+			<Text>倉廩之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GRANARY_GOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擁有糧倉的城市+1 [ICON_Culture] 文化值、+1 [ICON_Gold] 金幣、+1 [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GEOTHERMAL_GOD_NAME" Language="zh_Hant_HK">
+			<Text>地熱之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_GEOTHERMAL_GOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，地熱裂縫+2 [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_RIVER_GOD_NAME" Language="zh_Hant_HK">
+			<Text>水流之神</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_RIVER_GOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>學院、聖地、商業中心、工業區和劇院廣場從河流獲得額外標準相鄰加成。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_CAMPUS_ADJACENCY" Language="zh_Hant_HK">
+			<Text>相鄰河流+{1_Num} [ICON_Science] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_HOLY_SITE_ADJACENCY" Language="zh_Hant_HK">
+			<Text>相鄰河流+{1_Num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_COMMERCIAL_HUB_ADJACENCY" Language="zh_Hant_HK">
+			<Text>相鄰河流+{1_Num} [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_INDUSTRIAL_ZONE_ADJACENCY" Language="zh_Hant_HK">
+			<Text>相鄰河流+{1_Num} [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_ZYL_LBM_RIVER_GOD_THEATER_ADJACENCY" Language="zh_Hant_HK">
+			<Text>相鄰河流+{1_Num} [ICON_Culture] 文化值。</Text>
 		</Row>
 
 		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="zh_Hant_HK">

@@ -7,7 +7,7 @@ The mod prefers gentle changes, but "buff-only" is not a strict rule.
 
 ## Current state
 
-Version 0.7.0 implements the current agreed set of changes in four categories:
+Version 0.7.2 implements the current agreed set of changes in four categories:
 
 - game-wide numerical adjustments
 - game content additions
