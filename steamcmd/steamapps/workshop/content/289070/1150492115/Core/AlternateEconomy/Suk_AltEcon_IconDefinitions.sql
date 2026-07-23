@@ -1,0 +1,42 @@
+--==========================================================================================================================
+-- ICONS
+--==========================================================================================================================
+-- IconTextureAtlases
+-------------------------------------
+INSERT INTO IconTextureAtlases
+		(Name,										IconSize,	IconsPerRow,	IconsPerColumn,		Filename)
+VALUES	('ICON_ATLAS_SUK_ALTERNATERESOURCES',		256,		8,				8,					'Suk_AlternateResources_Atlas_256.dds'),
+		('ICON_ATLAS_SUK_ALTERNATERESOURCES',		64,			8,				8,					'Suk_AlternateResources_Atlas_64.dds'),
+		('ICON_ATLAS_SUK_ALTERNATERESOURCES',		50,			8,				8,					'Suk_AlternateResources_Atlas_50.dds'),
+		('ICON_ATLAS_SUK_ALTERNATERESOURCES',		38,			8,				8,					'Suk_AlternateResources_Atlas_38.dds'),
+		('ICON_ATLAS_SUK_ALTERNATERESOURCES',		32,			8,				8,					'Suk_AlternateResources_Atlas_32.dds');
+-------------------------------------
+-- IconDefinitions
+-------------------------------------
+INSERT OR REPLACE INTO IconDefinitions
+		(Name,														Atlas, 									'Index')
+VALUES	('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_CHEESE',			'ICON_ATLAS_SUK_ALTERNATERESOURCES',	0),
+		('ICON_PROJECT_CREATE_CORPORATION_PRODUCT_SUK_CHEESE',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	0),
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_CHEESE_FOW',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	32),
+
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_CAMEL',			'ICON_ATLAS_SUK_ALTERNATERESOURCES',	1),
+		('ICON_PROJECT_CREATE_CORPORATION_PRODUCT_SUK_CAMEL',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	1),
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_CAMEL_FOW',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	33),
+
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_OBSIDIAN',			'ICON_ATLAS_SUK_ALTERNATERESOURCES',	2),
+		('ICON_PROJECT_CREATE_CORPORATION_PRODUCT_SUK_OBSIDIAN',	'ICON_ATLAS_SUK_ALTERNATERESOURCES',	2),
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_OBSIDIAN_FOW',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	34),
+
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_DLV_BISON',			'ICON_ATLAS_SUK_ALTERNATERESOURCES',	3),
+		('ICON_PROJECT_CREATE_CORPORATION_PRODUCT_DLV_BISON',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	3),
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_DLV_BISON_FOW',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	35),
+
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_GOLD',					'ICON_ATLAS_SUK_ALTERNATERESOURCES',	4),
+		('ICON_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD',			'ICON_ATLAS_SUK_ALTERNATERESOURCES',	4),
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_GOLD_FOW',				'ICON_ATLAS_SUK_ALTERNATERESOURCES',	36),
+
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_SHARK',			'ICON_ATLAS_SUK_ALTERNATERESOURCES',	5),
+		('ICON_PROJECT_CREATE_CORPORATION_PRODUCT_SUK_SHARK',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	5),
+		('ICON_MONOPOLIES_AND_CORPS_RESOURCE_SUK_SHARK_FOW',		'ICON_ATLAS_SUK_ALTERNATERESOURCES',	37);
+--==========================================================================================================================
+--==========================================================================================================================

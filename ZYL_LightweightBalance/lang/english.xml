@@ -1071,5 +1071,152 @@
 		<Row Tag="LOC_GOVERNOR_PROMOTION_ZYL_LBM_FOREIGN_EXCHANGE_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>每條經過此城的外國 [ICON_TradeRoute] 貿易路線提供+1 [ICON_Science] 科技值和+1 [ICON_Culture] 文化值。研究「經濟學」科技後提高到+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
 		</Row>
+
+		<Row Tag="LOC_RESOURCE_ZYL_LBM_SHARK_NAME" Language="en_US">
+			<Text>Sharks</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_REEF_PARADISE_NAME" Language="en_US">
+			<Text>Reef Paradise</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_REEF_PARADISE_DESCRIPTION" Language="en_US">
+			<Text>Reefs in cities following this Pantheon provide +1 [ICON_Food] Food and +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_DEEP_SEA_BEASTS_NAME" Language="en_US">
+			<Text>Deep Sea Beasts</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_DEEP_SEA_BEASTS_DESCRIPTION" Language="en_US">
+			<Text>Whales and Sharks in cities following this Pantheon provide +2 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SIREN_NAME" Language="en_US">
+			<Text>Siren</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SIREN_DESCRIPTION" Language="en_US">
+			<Text>Water tiles in cities following this Pantheon provide +1 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_LIGHT_OF_LIGHTHOUSES_NAME" Language="en_US">
+			<Text>Light of the Lighthouse</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_LIGHT_OF_LIGHTHOUSES_DESCRIPTION" Language="en_US">
+			<Text>Cities following this Pantheon with a Lighthouse provide +2 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PALM_BEACH_NAME" Language="en_US">
+			<Text>Palm Beach</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PALM_BEACH_DESCRIPTION" Language="en_US">
+			<Text>Specialty Districts on or adjacent to Coast or Lake tiles provide +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold.</Text>
+		</Row>
+
+		<Row Tag="LOC_RESOURCE_ZYL_LBM_SHARK_NAME" Language="zh_Hans_CN">
+			<Text>鲨鱼</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_REEF_PARADISE_NAME" Language="zh_Hans_CN">
+			<Text>礁石天堂</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_REEF_PARADISE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿的城市中，礁石+1 [ICON_Food] 食物、+1 [ICON_Culture] 文化。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_DEEP_SEA_BEASTS_NAME" Language="zh_Hans_CN">
+			<Text>深海巨兽</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_DEEP_SEA_BEASTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿的城市中，鲸鱼和鲨鱼+2 [ICON_Culture] 文化。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SIREN_NAME" Language="zh_Hans_CN">
+			<Text>海妖塞壬</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SIREN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿的城市中，所有水域单元格+1 [ICON_Faith] 信仰。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_LIGHT_OF_LIGHTHOUSES_NAME" Language="zh_Hans_CN">
+			<Text>灯塔之光</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_LIGHT_OF_LIGHTHOUSES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信奉此万神殿且拥有灯塔的城市+2 [ICON_Culture] 文化。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PALM_BEACH_NAME" Language="zh_Hans_CN">
+			<Text>棕榈滩</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PALM_BEACH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于或相邻海岸或湖泊单元格的专业化区域+1 [ICON_Culture] 文化、+1 [ICON_Gold] 金币。</Text>
+		</Row>
+
+		<Row Tag="LOC_RESOURCE_ZYL_LBM_SHARK_NAME" Language="zh_Hant_HK">
+			<Text>鯊魚</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_REEF_PARADISE_NAME" Language="zh_Hant_HK">
+			<Text>礁石天堂</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_REEF_PARADISE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，礁石+1 [ICON_Food] 食物、+1 [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_DEEP_SEA_BEASTS_NAME" Language="zh_Hant_HK">
+			<Text>深海巨獸</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_DEEP_SEA_BEASTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，鯨魚和鯊魚+2 [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SIREN_NAME" Language="zh_Hant_HK">
+			<Text>海妖塞壬</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_SIREN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿的城市中，所有水域單元格+1 [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_LIGHT_OF_LIGHTHOUSES_NAME" Language="zh_Hant_HK">
+			<Text>燈塔之光</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_LIGHT_OF_LIGHTHOUSES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>信奉此萬神殿且擁有燈塔的城市+2 [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PALM_BEACH_NAME" Language="zh_Hant_HK">
+			<Text>棕櫚灘</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_ZYL_LBM_PALM_BEACH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>位於或相鄰海岸或湖泊單元格的專業化區域+1 [ICON_Culture] 文化值、+1 [ICON_Gold] 金幣。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_ZYL_LBM_SHARK] Shark Corporation: Create New Product</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_ZYL_LBM_SHARK] Create New Shark Product</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_DESCRIPTION" Language="en_US">
+			<Text>Create a new product for the world based on Sharks. +30% [ICON_Production] Production toward civilian units.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_1_NAME" Language="en_US"><Text>Binwei Shark Fins</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_2_NAME" Language="en_US"><Text>Hamada Samegawa Products</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_3_NAME" Language="en_US"><Text>Vikings Hakarl</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_4_NAME" Language="en_US"><Text>Crikey Adventures Shark Diving Tours</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_5_NAME" Language="en_US"><Text>Kamoh oalii Shark Encounters</Text></Row>
+
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_ZYL_LBM_SHARK] 鲨鱼企业：创建新产品</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_ZYL_LBM_SHARK] 创建新的鲨鱼产品</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基于鲨鱼资源为世界创建新产品。建造平民单位时 +30% [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_1_NAME" Language="zh_Hans_CN"><Text>滨威鱼翅</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_2_NAME" Language="zh_Hans_CN"><Text>滨田鲨鱼皮制品</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_3_NAME" Language="zh_Hans_CN"><Text>维京发酵鲨鱼肉</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_4_NAME" Language="zh_Hans_CN"><Text>惊奇探险鲨鱼潜水之旅</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_5_NAME" Language="zh_Hans_CN"><Text>卡莫霍阿利伊鲨鱼探险</Text></Row>
+
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_ZYL_LBM_SHARK] 鯊魚企業：建立新產品</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_ZYL_LBM_SHARK] 建立新的鯊魚產品</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_ZYL_LBM_SHARK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>基於鯊魚資源為世界建立新產品。建造平民單位時 +30% [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_1_NAME" Language="zh_Hant_HK"><Text>濱威魚翅</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_2_NAME" Language="zh_Hant_HK"><Text>濱田鯊魚皮製品</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_3_NAME" Language="zh_Hant_HK"><Text>維京發酵鯊魚肉</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_4_NAME" Language="zh_Hant_HK"><Text>驚奇探險鯊魚潛水之旅</Text></Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_ZYL_LBM_SHARK_5_NAME" Language="zh_Hant_HK"><Text>卡莫霍阿利伊鯊魚探險</Text></Row>
 	</LocalizedText>
 </GameData>

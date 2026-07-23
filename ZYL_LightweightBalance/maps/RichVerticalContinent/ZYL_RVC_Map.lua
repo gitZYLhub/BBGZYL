@@ -1365,7 +1365,7 @@ function AddFeatures()
 	-- 绿洲比例
 	args.iOasisPercent = 1;
 	-- 礁石比例
-	args.iReefPercent = 8 + RichNum / 1.5;
+	args.iReefPercent = 10 + RichNum / 1.5;
 	
 	featureGen = DW_FeatureGenerator.Create(args);
 	featureGen:AddFeatures(true, true, {

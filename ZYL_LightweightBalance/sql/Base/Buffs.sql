@@ -45,6 +45,88 @@ SET Combat = 65,
 	RangedCombat = 75
 WHERE UnitType = 'UNIT_BATTLESHIP';
 
+------------------------------------------------------------------------------
+-- Ocean resources
+------------------------------------------------------------------------------
+
+-- Shark is a new coast-only luxury resource. It deliberately has no
+-- FEATURE_REEF entry, so it cannot spawn on reefs.
+INSERT OR IGNORE INTO Types (Type, Kind) VALUES
+	('RESOURCE_ZYL_LBM_SHARK', 'KIND_RESOURCE');
+
+INSERT OR IGNORE INTO TypeTags (Type, Tag) VALUES
+	('RESOURCE_ZYL_LBM_SHARK', 'CLASS_FOOD'),
+	('RESOURCE_ZYL_LBM_SHARK', 'CLASS_GOLD'),
+	('RESOURCE_ZYL_LBM_SHARK', 'CLASS_SEA');
+
+INSERT OR IGNORE INTO Resources
+	(ResourceType, Name, ResourceClassType, LakeEligible, SeaFrequency, NoRiver, Happiness, Frequency)
+VALUES
+	('RESOURCE_ZYL_LBM_SHARK', 'LOC_RESOURCE_ZYL_LBM_SHARK_NAME', 'RESOURCECLASS_LUXURY', 0, 1, 0, 4, 0);
+
+INSERT OR IGNORE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES
+	('RESOURCE_ZYL_LBM_SHARK', 'TERRAIN_COAST');
+
+INSERT OR IGNORE INTO Improvement_ValidResources
+	(ImprovementType, ResourceType, MustRemoveFeature)
+VALUES
+	('IMPROVEMENT_FISHING_BOATS', 'RESOURCE_ZYL_LBM_SHARK', 0);
+
+-- Set the seven ordinary ocean resources to their agreed final yields.
+DELETE FROM Resource_YieldChanges
+WHERE ResourceType IN (
+	'RESOURCE_FISH',
+	'RESOURCE_CRABS',
+	'RESOURCE_PEARLS',
+	'RESOURCE_ZYL_LBM_SHARK',
+	'RESOURCE_WHALES',
+	'RESOURCE_TURTLES',
+	'RESOURCE_AMBER'
+);
+
+INSERT INTO Resource_YieldChanges (ResourceType, YieldType, YieldChange) VALUES
+	('RESOURCE_FISH', 'YIELD_FOOD', 1),
+	('RESOURCE_CRABS', 'YIELD_PRODUCTION', 1),
+	('RESOURCE_CRABS', 'YIELD_GOLD', 1),
+	('RESOURCE_PEARLS', 'YIELD_FOOD', 1),
+	('RESOURCE_PEARLS', 'YIELD_FAITH', 1),
+	('RESOURCE_ZYL_LBM_SHARK', 'YIELD_FOOD', 1),
+	('RESOURCE_ZYL_LBM_SHARK', 'YIELD_GOLD', 1),
+	('RESOURCE_WHALES', 'YIELD_PRODUCTION', 1),
+	('RESOURCE_WHALES', 'YIELD_GOLD', 1),
+	('RESOURCE_TURTLES', 'YIELD_SCIENCE', 1),
+	('RESOURCE_AMBER', 'YIELD_CULTURE', 1);
+
+-- Fish may appear on reefs. Crabs, pearls, sharks, and whales must not.
+INSERT OR IGNORE INTO Resource_ValidFeatures (ResourceType, FeatureType)
+SELECT 'RESOURCE_FISH', 'FEATURE_REEF'
+WHERE EXISTS (SELECT 1 FROM Features WHERE FeatureType = 'FEATURE_REEF');
+
+DELETE FROM Resource_ValidFeatures
+WHERE ResourceType IN ('RESOURCE_CRABS', 'RESOURCE_PEARLS', 'RESOURCE_WHALES')
+	AND FeatureType = 'FEATURE_REEF';
+
+-- Amber now follows the turtle model: sea-only and only valid when a reef is
+-- present. Clearing its previous land placements keeps it out of land pools.
+UPDATE Resources
+SET LakeEligible = 0,
+	SeaFrequency = 1,
+	Frequency = 0
+WHERE ResourceType = 'RESOURCE_AMBER';
+
+DELETE FROM Resource_ValidTerrains
+WHERE ResourceType = 'RESOURCE_AMBER';
+
+INSERT OR IGNORE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES
+	('RESOURCE_AMBER', 'TERRAIN_COAST');
+
+DELETE FROM Resource_ValidFeatures
+WHERE ResourceType = 'RESOURCE_AMBER';
+
+INSERT OR IGNORE INTO Resource_ValidFeatures (ResourceType, FeatureType)
+SELECT 'RESOURCE_AMBER', 'FEATURE_REEF'
+WHERE EXISTS (SELECT 1 FROM Features WHERE FeatureType = 'FEATURE_REEF');
+
 -- Luxury resource yield adjustments.
 INSERT OR IGNORE INTO Resource_YieldChanges (ResourceType, YieldType, YieldChange) VALUES
 	('RESOURCE_MERCURY', 'YIELD_PRODUCTION', 0),

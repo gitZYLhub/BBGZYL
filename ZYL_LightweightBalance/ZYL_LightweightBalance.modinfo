@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.7.2">
+<Mod id="41493218-3632-421b-a1a3-367f7c7ba610" version="0.7.3">
 	<Properties>
 		<Name>ZYL Lightweight Balance Mod</Name>
 		<Description>Lightweight Civilization VI balance changes for friendly multiplayer games.</Description>
 		<Teaser>Lightweight multiplayer balance tweaks.</Teaser>
 		<Authors>ZYL and friends</Authors>
-		<Version>0.7.2</Version>
+		<Version>0.7.3</Version>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 
@@ -17,6 +17,13 @@
 		<Criteria id="XP2" any="1">
 			<GameCoreInUse>Expansion2</GameCoreInUse>
 			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="MonopoliesMode">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
 		</Criteria>
 		<Criteria id="SecretSocietiesXP1">
 			<RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
@@ -116,6 +123,13 @@
 	</FrontEndActions>
 
 	<InGameActions>
+		<UpdateArt id="ZYL_LBM_SharkArt">
+			<Properties>
+				<LoadOrder>50000</LoadOrder>
+			</Properties>
+			<File>art/Shark/ZYL_LBM_Shark.dep</File>
+		</UpdateArt>
+
 		<UpdateText id="ZYL_LBM_InGameText">
 			<Properties>
 				<LoadOrder>4000000</LoadOrder>
@@ -143,6 +157,13 @@
 				<LoadOrder>50012</LoadOrder>
 			</Properties>
 			<File>sql/Base/Technologies.sql</File>
+		</UpdateDatabase>
+
+		<UpdateDatabase id="ZYL_LBM_MonopoliesAndCorporations" criteria="MonopoliesMode">
+			<Properties>
+				<LoadOrder>50013</LoadOrder>
+			</Properties>
+			<File>sql/XP2/MonopoliesAndCorporations.sql</File>
 		</UpdateDatabase>
 
 		<UpdateDatabase id="ZYL_LBM_BasePantheons">
@@ -213,6 +234,7 @@
 				<LoadOrder>50050</LoadOrder>
 			</Properties>
 			<File>data/icons.xml</File>
+			<File>sql/Base/Icons.sql</File>
 		</UpdateIcons>
 
 		<ReplaceUIScript id="ZYL_LBM_TeamPVPToolsPantheonChooser" criteria="TeamPVPTools">
@@ -293,6 +315,14 @@
 		<File>config/EraLengthOptions.xml</File>
 		<File>config/RichVerticalContinent.xml</File>
 		<File>data/icons.xml</File>
+		<File>sql/Base/Icons.sql</File>
+		<File>art/Shark/ZYL_LBM_Shark.dep</File>
+		<File>art/Shark/ArtDefs/Landmarks.artdef</File>
+		<File>art/Shark/ArtDefs/Resources.artdef</File>
+		<File>art/Shark/Platforms/Windows/BLPs/UITextures.blp</File>
+		<File>art/Shark/Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+		<File>art/Shark/Platforms/MacOS/BLPs/UITextures.blp</File>
+		<File>art/Shark/Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
 		<File>lang/english.xml</File>
 		<File>lang/rich_vertical_continent.xml</File>
 		<File>maps/RichVerticalContinent/ZYL_RVC_Map.lua</File>
@@ -325,6 +355,7 @@
 		<File>sql/DLC/Maya.sql</File>
 		<File>sql/XP1/EraLengthOptimization.sql</File>
 		<File>sql/XP1/Buffs_XP1.sql</File>
+		<File>sql/XP2/MonopoliesAndCorporations.sql</File>
 		<File>sql/XP2/Buffs_XP2.sql</File>
 		<File>sql/XP2/SecretSocieties.sql</File>
 		<File>ui/TeamPVPTools_PantheonChooser.lua</File>
